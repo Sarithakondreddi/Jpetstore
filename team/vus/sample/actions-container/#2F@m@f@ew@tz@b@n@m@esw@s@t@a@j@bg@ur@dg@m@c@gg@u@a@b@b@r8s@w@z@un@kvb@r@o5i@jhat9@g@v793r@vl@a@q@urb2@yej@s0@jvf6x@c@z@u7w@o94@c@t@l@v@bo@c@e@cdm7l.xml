@@ -1,0 +1,104 @@
+<http-page executeResourcesDynamically="false"
+    name="/MFEwTzBNMEswSTAJBgUrDgMCGgUABBR8sWZUnKvbRO5iJhat9GV793rVlAQUrb2YejS0Jvf6xCZU7wO94CTLVBoCECdm7l"
+    playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/sample/%resources%/recorded-artifacts/0ba10ce9-1986-4f50-b7d1-ce70049bb01a.zip"
+    slaProfileEnabled="false" thinkTime="6281"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="0ba10ce9-1986-4f50-b7d1-ce70049bb01a">
+    <embedded-action>506dc8be-a4b4-4878-bd3c-4b70305eb64b</embedded-action>
+    <embedded-action>3d6b21a3-8f02-44b0-b9ea-d4b634662db5</embedded-action>
+    <embedded-action>e77ad77d-7bb7-4a94-ae64-eef106a82a7c</embedded-action>
+</http-page>
+<http-action actionType="1" contentType="application/ocsp-response"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET"
+    name="/MFEwTzBNMEswSTAJBgUrDgMCGgUABBR8sWZUnKvbRO5iJhat9GV793rVlAQUrb2YejS0Jvf6xCZU7wO94CTLVBoCECdm7lbrSfOOq9dwovyE3iI%3D"
+    path="/MFEwTzBNMEswSTAJBgUrDgMCGgUABBR8sWZUnKvbRO5iJhat9GV793rVlAQUrb2YejS0Jvf6xCZU7wO94CTLVBoCECdm7lbrSfOOq9dwovyE3iI%3D"
+    postType="1"
+    recordedArtifactZipFileName="team/vus/sample/%resources%/recorded-artifacts/0ba10ce9-1986-4f50-b7d1-ce70049bb01a.zip"
+    recordedResponseCode="200" responseSize="0"
+    serverUid="ocsp.usertrust.com" slaProfileEnabled="false"
+    uid="506dc8be-a4b4-4878-bd3c-4b70305eb64b" useKeepAlive="false">
+    <requestContentFileDescription>recorded-requests/req_506dc8be-a4b4-4878-bd3c-4b70305eb64b.txt</requestContentFileDescription>
+    <header name="Accept" value="*/*"/>
+    <header name="Host" value="ocsp.usertrust.com"/>
+    <header name="User-Agent" value="Microsoft-CryptoAPI/10.0"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Date: Wed, 23 Oct 2019 15:29:49 GMT&#xd;
+Accept-Ranges: bytes&#xd;
+Content-Type: application/ocsp-response&#xd;
+Last-Modified: Tue, 22 Oct 2019 14:45:52 GMT&#xd;
+Server: Apache&#xd;
+ETag: 8C54C45EB8EC52BE3465546A23EC8C79EE30784C&#xd;
+Cache-Control: max-age=515879,s-maxage=1800,public,no-transform,must-revalidate&#xd;
+X-OCSP-Responder-ID: scdpcaocsp12&#xd;
+X-HW: 1571844589.cds027.si2.h2,1571844589.cds041.si2.c&#xd;
+Connection: keep-alive&#xd;
+Content-Length: 471</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="application/ocsp-response"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET"
+    name="/MFEwTzBNMEswSTAJBgUrDgMCGgUABBReAhtobFzTvhaRmVeJ38QUchY9AwQUu69%2BAj36pvE8hI6t7jiY7NkyMtQCEC58h8wOk0pS%2FpT9HLfNNK8%3D"
+    path="/MFEwTzBNMEswSTAJBgUrDgMCGgUABBReAhtobFzTvhaRmVeJ38QUchY9AwQUu69%2BAj36pvE8hI6t7jiY7NkyMtQCEC58h8wOk0pS%2FpT9HLfNNK8%3D"
+    postType="1"
+    recordedArtifactZipFileName="team/vus/sample/%resources%/recorded-artifacts/0ba10ce9-1986-4f50-b7d1-ce70049bb01a.zip"
+    recordedResponseCode="200" responseSize="0"
+    serverUid="ocsp.comodoca.com" slaProfileEnabled="false"
+    uid="3d6b21a3-8f02-44b0-b9ea-d4b634662db5" useKeepAlive="false">
+    <requestContentFileDescription>recorded-requests/req_3d6b21a3-8f02-44b0-b9ea-d4b634662db5.txt</requestContentFileDescription>
+    <header name="Accept" value="*/*"/>
+    <header name="Host" value="ocsp.comodoca.com"/>
+    <header name="User-Agent" value="Microsoft-CryptoAPI/10.0"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Date: Wed, 23 Oct 2019 15:29:50 GMT&#xd;
+Accept-Ranges: bytes&#xd;
+Content-Type: application/ocsp-response&#xd;
+Last-Modified: Tue, 22 Oct 2019 14:45:52 GMT&#xd;
+Server: Apache&#xd;
+ETag: 95814ECD581F8AB0E6799610BBE7FF3B64F9E2EB&#xd;
+Cache-Control: max-age=515878,s-maxage=1800,public,no-transform,must-revalidate&#xd;
+X-OCSP-Responder-ID: scdpcaocsp10&#xd;
+X-HW: 1571844590.cds021.si2.h2,1571844590.cds032.si2.c&#xd;
+Connection: keep-alive&#xd;
+Content-Length: 727</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="application/ocsp-response"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET"
+    name="/MFIwUDBOMEwwSjAJBgUrDgMCGgUABBSSdxXdG447ymkRNPVViULv3rkBzQQUKZFg%2F4pN%2Buv5pmq4z%2FnmS71JzhICEQCYsYLq9d%2BL3g%2BIcu3iEMde"
+    path="/MFIwUDBOMEwwSjAJBgUrDgMCGgUABBSSdxXdG447ymkRNPVViULv3rkBzQQUKZFg%2F4pN%2Buv5pmq4z%2FnmS71JzhICEQCYsYLq9d%2BL3g%2BIcu3iEMde"
+    postType="1"
+    recordedArtifactZipFileName="team/vus/sample/%resources%/recorded-artifacts/0ba10ce9-1986-4f50-b7d1-ce70049bb01a.zip"
+    recordedResponseCode="200" responseSize="0"
+    serverUid="ocsp.comodoca.com" slaProfileEnabled="false"
+    uid="e77ad77d-7bb7-4a94-ae64-eef106a82a7c" useKeepAlive="false">
+    <requestContentFileDescription>recorded-requests/req_e77ad77d-7bb7-4a94-ae64-eef106a82a7c.txt</requestContentFileDescription>
+    <header name="Accept" value="*/*"/>
+    <header name="Host" value="ocsp.comodoca.com"/>
+    <header name="User-Agent" value="Microsoft-CryptoAPI/10.0"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Date: Wed, 23 Oct 2019 15:29:50 GMT&#xd;
+Accept-Ranges: bytes&#xd;
+Content-Type: application/ocsp-response&#xd;
+Last-Modified: Mon, 21 Oct 2019 02:10:40 GMT&#xd;
+Server: Apache&#xd;
+ETag: D43805EA462F4C6535C1B112669B928756554262&#xd;
+Cache-Control: max-age=384037,s-maxage=1800,public,no-transform,must-revalidate&#xd;
+X-OCSP-Responder-ID: scdpcaocsp1&#xd;
+X-HW: 1571844590.cds021.si2.h2,1571844590.cds030.si2.c&#xd;
+Connection: keep-alive&#xd;
+Content-Length: 472</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>

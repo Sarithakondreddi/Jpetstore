@@ -1,0 +1,6 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="enterpage" pacingEnd="0" pacingMode="MODE_NO_PACING"
+    pacingStart="0" pacingValue="0" slaProfileEnabled="false"
+    uid="e0233e3f-9df0-4adc-9001-9caf5fcaacc0" weightsEnabled="false">
+    <weighted-embedded-action uid="ad448e1a-a7eb-4d2c-b55a-9441df6c0bd1"/>
+</basic-logical-action-container>

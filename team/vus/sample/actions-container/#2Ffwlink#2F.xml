@@ -1,0 +1,44 @@
+<http-page executeResourcesDynamically="false" name="/fwlink/"
+    playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/sample/%resources%/recorded-artifacts/71603c2b-2414-4b73-8285-d5097dc3071a.zip"
+    slaProfileEnabled="false" thinkTime="0"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="71603c2b-2414-4b73-8285-d5097dc3071a">
+    <embedded-action>3cdc5b02-028c-47fe-a86a-70e053c851fe</embedded-action>
+</http-page>
+<http-action actionType="1" extractorInjectPathPolicy="2"
+    extractorPathPolicy="1" followRedirects="false"
+    generatedByClient="false" linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/fwlink/" path="/fwlink/" postType="1"
+    recordedArtifactZipFileName="team/vus/sample/%resources%/recorded-artifacts/71603c2b-2414-4b73-8285-d5097dc3071a.zip"
+    recordedResponseCode="302" responseSize="0"
+    serverUid="go.microsoft.com" slaProfileEnabled="false"
+    uid="3cdc5b02-028c-47fe-a86a-70e053c851fe" useKeepAlive="false">
+    <requestContentFileDescription>recorded-requests/req_3cdc5b02-028c-47fe-a86a-70e053c851fe.txt</requestContentFileDescription>
+    <parameter encodeName="true" encodeValue="true" name="LinkID"
+        recordRawValue="279774" separator="=" value="279774" valueMode="USE_VALUE"/>
+    <header name="Accept" value="application/xml"/>
+    <header name="Accept-Encoding" value="gzip"/>
+    <header name="Application" value="SettingsSync Windows 10.0"/>
+    <header name="Cache-Control" value="no-cache"/>
+    <header name="Host" value="go.microsoft.com"/>
+    <header name="User-Agent" value="Microsoft SettingsSync (10.0.17134.885) Windows NT 10.0 (0a00) Mobile IsNotAoAc"/>
+    <header name="X-Region" value="IN"/>
+    <header name="X-Scenario" value="SettingsSync_ClientPolicy"/>
+    <header name="X-UserAgent" value="Microsoft SettingsSync (10.0.17134.885) Windows NT 10.0 (0a00) Mobile IsNotAoAc"/>
+    <responseHeaders>HTTP/1.1 302 Moved Temporarily&#xd;
+Location: https://windows.policies.live.net/policy/WindowsSettingsv2&#xd;
+Server: Kestrel&#xd;
+Request-Context: appId=cid-v1:b47e5e27-bf85-45ba-a97c-0377ce0e5779&#xd;
+X-Response-Cache-Status: True&#xd;
+X-Powered-By: ASP.NET&#xd;
+Content-Length: 0&#xd;
+Expires: Wed, 23 Oct 2019 15:29:43 GMT&#xd;
+Cache-Control: max-age=0, no-cache, no-store&#xd;
+Pragma: no-cache&#xd;
+Date: Wed, 23 Oct 2019 15:29:43 GMT&#xd;
+Connection: keep-alive&#xd;
+Strict-Transport-Security: max-age=31536000 ; includeSubDomains</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>

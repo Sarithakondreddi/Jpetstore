@@ -1,0 +1,8 @@
+<variable-file delimiters="," filename="variables/P_acctinfo.txt" name="p_acctinfo" offset="1" order="1" policy="5" range="1" uid="69b04f85-d8aa-4b20-89ae-0a0ed785e65a" useFirstLine="true" whenOutOfValues="CYCLE_VALUES">
+<column name="P_firstName" number="2"/>
+<column name="P_lastName" number="3"/>
+<column name="P_password" number="1"/>
+<column name="P_username" number="0"/>
+<column name="p_email" number="4"/>
+<column name="p_phone" number="5"/>
+</variable-file>

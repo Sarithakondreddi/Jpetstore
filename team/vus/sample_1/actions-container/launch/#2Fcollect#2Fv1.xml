@@ -1,0 +1,420 @@
+<http-page executeResourcesDynamically="false" name="/collect/v1"
+    playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/sample_1/%resources%/recorded-artifacts/945c342f-c56e-45f4-943d-0b53f59fb155.zip"
+    slaProfileEnabled="false" thinkTime="1313"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="945c342f-c56e-45f4-943d-0b53f59fb155">
+    <embedded-action>4b72fb2d-d765-41ea-9fdb-800de0c65d17</embedded-action>
+    <embedded-action>32f88a8b-4ff4-4fda-9d98-acad55b3efcc</embedded-action>
+    <embedded-action>8df335d6-9b82-41fa-8fbc-04ddaf9eb8dc</embedded-action>
+    <embedded-action>d25d31d4-7c7b-4c5f-bcae-8ec23d8e632d</embedded-action>
+    <embedded-action>ae52b71c-d288-46d6-a3b2-901677ce9502</embedded-action>
+    <screenshotFileDescription>recorded-screenshots/sc_f2ae9f08-3fb7-4710-a7fd-c6e601009ce4.jpg</screenshotFileDescription>
+</http-page>
+<http-action actionType="1" contentType="application/json"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="POST" name="/collect/v1" path="/collect/v1" postType="4"
+    recordedArtifactZipFileName="team/vus/sample_1/%resources%/recorded-artifacts/945c342f-c56e-45f4-943d-0b53f59fb155.zip"
+    recordedResponseCode="200" responseSize="57"
+    serverUid="web.vortex.data.microsoft.com" slaProfileEnabled="false"
+    uid="4b72fb2d-d765-41ea-9fdb-800de0c65d17" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_4b72fb2d-d765-41ea-9fdb-800de0c65d17</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_4b72fb2d-d765-41ea-9fdb-800de0c65d17.txt</requestContentFileDescription>
+    <header name="Accept" value="*/*"/>
+    <header name="Accept-Encoding" value="gzip, deflate"/>
+    <header name="Accept-Language" value="en-IN"/>
+    <header name="Cache-Control" value="no-cache"/>
+    <header name="Connection" value="Keep-Alive"/>
+    <header name="Content-Type" value="text/plain;charset=UTF-8"/>
+    <header name="Host" value="web.vortex.data.microsoft.com"/>
+    <header name="Origin" value="https://www.microsoft.com"/>
+    <header name="Referer" value="https://www.microsoft.com/en-in/welcomeie11/"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Cache-Control: no-cache, no-store&#xd;
+Pragma: no-cache&#xd;
+Content-Length: 57&#xd;
+Content-Type: application/json&#xd;
+Expires: 0&#xd;
+X-Content-Type-Options: nosniff&#xd;
+MS-CV: DJ6qM/ugs0+ICVOhrJKB3w.0&#xd;
+Set-Cookie: MC1=GUID=918fd7b64c8344d0bf6537f1cad96f75&amp;HASH=918f&amp;LV=201910&amp;V=4&amp;LU=1571844614173; Domain=.microsoft.com; Expires=Thu, 22 Oct 2020 15:30:14 GMT; Path=/&#xd;
+Set-Cookie: MS0=b79282f9ff354894a7c9d60708083139; Domain=.microsoft.com; Expires=Wed, 23 Oct 2019 16:00:14 GMT; Path=/&#xd;
+P3P: CP="ALL IND DSP COR ADM CONo CUR CUSo IVAo IVDo PSA PSD TAI TELo OUR SAMo CNT COM INT NAV ONL PHY PRE PUR UNI"&#xd;
+Access-Control-Allow-Headers: Accept, Authorization, Content-Type, Origin, X-Xbl-Contract-Version, X-Xbl-Device-Type, Xbl-Authz-Actor-10, WithCredentials&#xd;
+Access-Control-Allow-Origin: https://www.microsoft.com&#xd;
+Access-Control-Allow-Credentials: true&#xd;
+Date: Wed, 23 Oct 2019 15:30:13 GMT</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+    <textPostContent><![CDATA[{"ver":"2.1","name":"Ms.Webi.OutgoingRequest","time":"2019-10-23T15:30:12.292Z","appId":"JS:MeControl","cV":"B8UddoFCehZs39ps.8","data":{"baseType":"Ms.Qos.OutgoingServiceRequest","pageName":"Initial Collapsed","impressionGuid":"3411a7e0-18fd-4df9-c7c8-6a9a98dfc472","market":"en-US","customData":"{\"computedDuration\":83.00070175438668,\"perfDuration\":78.71719298245625,\"metaTags\":{\"pgpart\":\"mswelcomeie11\"},\"config\":{\"ver\":\"10.19284.2\",\"mkt\":\"en-US\",\"ptn\":\"mswelcomeie11\",\"gfx\":\"https://mem.gfx.ms/scripts/me\",\"dbg\":false,\"aad\":true,\"int\":false,\"pxy\":false,\"msTxt\":false,\"rwd\":true,\"telEvs\":\"PageAction, PageView, ContentUpdate, OutgoingRequest, ClientError, PartnerApiCall, TrackedScenario\",\"remAcc\":true,\"main\":\"meBoot\",\"wreply\":null,\"wrapperId\":null,\"cdnRegex\":\"^(?:https?:\\/\\/)?(mem\\.gfx\\.ms(?!\\.)|controls\\.account.microsoft?(?:-int|-dev)?(\\.com)?(:[0-9]{1,6})|amcdn\\.ms(?:ft)?auth\\.net(?!\\.))\"},\"url\":\"https://www.microsoft.com/en-in/welcomeie11/\",\"accts\":\"0-0\"}","baseData":{"operationName":"meCore.min.js","dependencyOperationName":"DownloadScript","dependencyName":"MeControl","latencyMs":79,"succeeded":true,"targetUri":"https://mem.gfx.ms/scripts/me/MeControl/10.19284.2/en-US/meCore.min.js"}},"ext":{"javascript":{"ver":"1.1","libVer":"4.2.3","domain":"www.microsoft.com","userConsent":false},"app":{"env":"Prod"}}}
+{"ver":"2.1","name":"Ms.Webi.ContentUpdate","time":"2019-10-23T15:30:12.088Z","appId":"JS:MeControl","cV":"B8UddoFCehZs39ps.5","data":{"baseType":"Ms.Content.ContentUpdate","pageLoadTime":670,"cookieEnabled":true,"isJs":true,"isLoggedIn":false,"isManual":true,"baseData":{"ver":"1.0","impressionGuid":"3411a7e0-18fd-4df9-c7c8-6a9a98dfc472","market":"en-US","pageTags":"{\"metaTags\":{\"pgpart\":\"mswelcomeie11\"},\"config\":{\"ver\":\"10.19284.2\",\"mkt\":\"en-US\",\"ptn\":\"mswelcomeie11\",\"gfx\":\"https://mem.gfx.ms/scripts/me\",\"dbg\":false,\"aad\":true,\"int\":false,\"pxy\":false,\"msTxt\":false,\"rwd\":true,\"telEvs\":\"PageAction, PageView, ContentUpdate, OutgoingRequest, ClientError, PartnerApiCall, TrackedScenario\",\"remAcc\":true,\"main\":\"meBoot\",\"wreply\":null,\"wrapperId\":null,\"cdnRegex\":\"^(?:https?:\\/\\/)?(mem\\.gfx\\.ms(?!\\.)|controls\\.account.microsoft?(?:-int|-dev)?(\\.com)?(:[0-9]{1,6})|amcdn\\.ms(?:ft)?auth\\.net(?!\\.))\"},\"url\":\"https://www.microsoft.com/en-in/welcomeie11/\",\"accts\":\"0-0\"}","contentVer":"2.0","content":"[{\"id\":\"Initial Collapsed\",\"cS\":\"Application\"}]"}},"ext":{"javascript":{"ver":"1.1","libVer":"4.2.3","domain":"www.microsoft.com","userConsent":false},"app":{"env":"Prod"}}}
+{"ver":"2.1","name":"Ms.Webi.MeControl.PartnerApiCall","time":"2019-10-23T15:30:11.417Z","appId":"JS:MeControl","cV":"B8UddoFCehZs39ps.2","data":{"partner":"mswelcomeie11","controlVersion":"10.19284.2","methodName":"loadV1","parameters":"{\"containerId\":\"*string*\",\"enabled\":\"*boolean*\",\"headerHeight\":\"*number*\",\"debug\":\"*boolean*\",\"extensibleLinks\":{},\"userData\":{\"idp\":\"aad\",\"firstName\":\"*string*\",\"lastName\":\"*string*\",\"memberName\":\"*string*\",\"cid\":\"*string*\",\"authenticatedState\":3},\"rpData\":{\"preferredIdp\":\"*string*\",\"msaInfo\":{\"signInUrl\":\"*string*\",\"signOutUrl\":\"*string*\",\"meUrl\":\"*string*\"},\"aadInfo\":{\"signOutUrl\":\"*string*\",\"appId\":\"*string*\",\"siteUrl\":\"*string*\",\"blockMsaFed\":\"*boolean*\",\"signInUrl\":\"*string*\"}},\"events\":{\"onEventLog\":\"*function*\"}}"},"ext":{"javascript":{"ver":"1.1","libVer":"4.2.3","domain":"www.microsoft.com","userConsent":false},"app":{"env":"Prod"}}}
+{"ver":"2.1","name":"Ms.Webi.MeControl.PartnerApiCall","time":"2019-10-23T15:30:11.422Z","appId":"JS:MeControl","cV":"B8UddoFCehZs39ps.3","data":{"partner":"mswelcomeie11","controlVersion":"10.19284.2","methodName":"setDisplayMode","parameters":"{\"0\":\"*string*\"}"},"ext":{"javascript":{"ver":"1.1","libVer":"4.2.3","domain":"www.microsoft.com","userConsent":false},"app":{"env":"Prod"}}}]]></textPostContent>
+</http-action>
+<http-action actionType="1" contentType="image/gif"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/collect/v1/t.gif" path="/collect/v1/t.gif"
+    postType="1"
+    recordedArtifactZipFileName="team/vus/sample_1/%resources%/recorded-artifacts/945c342f-c56e-45f4-943d-0b53f59fb155.zip"
+    recordedResponseCode="200" responseSize="0"
+    serverUid="web.vortex.data.microsoft.com" slaProfileEnabled="false"
+    uid="32f88a8b-4ff4-4fda-9d98-acad55b3efcc" useKeepAlive="false">
+    <requestContentFileDescription>recorded-requests/req_32f88a8b-4ff4-4fda-9d98-acad55b3efcc.txt</requestContentFileDescription>
+    <parameter encodeName="true" encodeValue="true" name="ver"
+        recordRawValue="%272.1%27" separator="=" value="'2.1'" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="name"
+        recordRawValue="%27Ms.Webi.MeControl.TrackedScenario%27"
+        separator="=" value="'Ms.Webi.MeControl.TrackedScenario'" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="time"
+        recordRawValue="%272019-10-23T15%3A30%3A12.200Z%27"
+        separator="=" value="'2019-10-23T15:30:12.200Z'" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="appId"
+        recordRawValue="%27JS%3AMeControl%27" separator="="
+        value="'JS:MeControl'" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="cV"
+        recordRawValue="%27B8UddoFCehZs39ps.7%27" separator="="
+        value="'B8UddoFCehZs39ps.7'" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true"
+        name="ext-javascript-ver" recordRawValue="%271.1%27"
+        separator="=" value="'1.1'" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true"
+        name="ext-javascript-libVer" recordRawValue="%274.2.3%27"
+        separator="=" value="'4.2.3'" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true"
+        name="ext-javascript-domain"
+        recordRawValue="%27www.microsoft.com%27" separator="="
+        value="'www.microsoft.com'" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true"
+        name="ext-javascript-userConsent" recordRawValue="false"
+        separator="=" value="false" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="ext-app-env"
+        recordRawValue="%27Prod%27" separator="=" value="'Prod'" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="*partner"
+        recordRawValue="%27mswelcomeie11%27" separator="="
+        value="'mswelcomeie11'" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true"
+        name="*controlVersion" recordRawValue="%2710.19284.2%27"
+        separator="=" value="'10.19284.2'" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="*market"
+        recordRawValue="%27en-US%27" separator="=" value="'en-US'" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="*scenario"
+        recordRawValue="%27Load%27" separator="=" value="'Load'" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="*action"
+        recordRawValue="%27END%27" separator="=" value="'END'" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true"
+        name="*previousAction" recordRawValue="%27START%27"
+        separator="=" value="'START'" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="*success"
+        recordRawValue="true" separator="=" value="true" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="*durationMs"
+        recordRawValue="783.1999999999989" separator="="
+        value="783.1999999999989" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="*details"
+        recordRawValue="%27loadV1%27" separator="=" value="'loadV1'" valueMode="USE_VALUE"/>
+    <header name="Accept" value="image/png, image/svg+xml, image/jxr, image/*;q=0.8, */*;q=0.5"/>
+    <header name="Accept-Encoding" value="gzip, deflate"/>
+    <header name="Accept-Language" value="en-IN"/>
+    <header name="Connection" value="Keep-Alive"/>
+    <header name="Cookie" value="MS-CV=GiI+4Rtdlke6j1n0.1"/>
+    <header name="Host" value="web.vortex.data.microsoft.com"/>
+    <header name="Referer" value="https://www.microsoft.com/en-in/welcomeie11/"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Cache-Control: no-cache, no-store&#xd;
+Pragma: no-cache&#xd;
+Content-Length: 43&#xd;
+Content-Type: image/gif&#xd;
+Expires: 0&#xd;
+X-Content-Type-Options: nosniff&#xd;
+MS-CV: ptiWGw9JpEOgNOXHj43eUQ.0&#xd;
+Set-Cookie: MC1=GUID=c1e2437e0cb749d6bb59a8ab49f20dbd&amp;HASH=c1e2&amp;LV=201910&amp;V=4&amp;LU=1571844614349; Domain=.microsoft.com; Expires=Thu, 22 Oct 2020 15:30:14 GMT; Path=/&#xd;
+Set-Cookie: MS0=dd04a8e1d6d44ed380099a77aed4fc70; Domain=.microsoft.com; Expires=Wed, 23 Oct 2019 16:00:14 GMT; Path=/&#xd;
+P3P: CP="ALL IND DSP COR ADM CONo CUR CUSo IVAo IVDo PSA PSD TAI TELo OUR SAMo CNT COM INT NAV ONL PHY PRE PUR UNI"&#xd;
+Date: Wed, 23 Oct 2019 15:30:13 GMT</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="image/gif"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/collect/v1/t.gif" path="/collect/v1/t.gif"
+    postType="1"
+    recordedArtifactZipFileName="team/vus/sample_1/%resources%/recorded-artifacts/945c342f-c56e-45f4-943d-0b53f59fb155.zip"
+    recordedResponseCode="200" responseSize="0"
+    serverUid="web.vortex.data.microsoft.com" slaProfileEnabled="false"
+    uid="8df335d6-9b82-41fa-8fbc-04ddaf9eb8dc" useKeepAlive="false">
+    <requestContentFileDescription>recorded-requests/req_8df335d6-9b82-41fa-8fbc-04ddaf9eb8dc.txt</requestContentFileDescription>
+    <parameter encodeName="true" encodeValue="true" name="ver"
+        recordRawValue="%272.1%27" separator="=" value="'2.1'" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="name"
+        recordRawValue="%27Ms.Webi.OutgoingRequest%27" separator="="
+        value="'Ms.Webi.OutgoingRequest'" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="time"
+        recordRawValue="%272019-10-23T15%3A30%3A11.987Z%27"
+        separator="=" value="'2019-10-23T15:30:11.987Z'" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="appId"
+        recordRawValue="%27JS%3AMeControl%27" separator="="
+        value="'JS:MeControl'" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="cV"
+        recordRawValue="%27B8UddoFCehZs39ps.4%27" separator="="
+        value="'B8UddoFCehZs39ps.4'" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true"
+        name="ext-javascript-ver" recordRawValue="%271.1%27"
+        separator="=" value="'1.1'" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true"
+        name="ext-javascript-libVer" recordRawValue="%274.2.3%27"
+        separator="=" value="'4.2.3'" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true"
+        name="ext-javascript-domain"
+        recordRawValue="%27www.microsoft.com%27" separator="="
+        value="'www.microsoft.com'" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true"
+        name="ext-javascript-userConsent" recordRawValue="false"
+        separator="=" value="false" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="ext-app-env"
+        recordRawValue="%27Prod%27" separator="=" value="'Prod'" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true"
+        name="-operationName" recordRawValue="%27meBoot.min.js%27"
+        separator="=" value="'meBoot.min.js'" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true"
+        name="-dependencyOperationName"
+        recordRawValue="%27DownloadScript%27" separator="="
+        value="'DownloadScript'" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true"
+        name="-dependencyName" recordRawValue="%27MeControl%27"
+        separator="=" value="'MeControl'" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="-latencyMs"
+        recordRawValue="70" separator="=" value="70" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="-succeeded"
+        recordRawValue="true" separator="=" value="true" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="-targetUri"
+        recordRawValue="%27https%3A%2F%2Fmem.gfx.ms%2Fscripts%2Fme%2FMeControl%2F10.19284.2%2Fen-US%2FmeBoot.min.js%27"
+        separator="="
+        value="'https://mem.gfx.ms/scripts/me/MeControl/10.19284.2/en-US/meBoot.min.js'" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="*baseType"
+        recordRawValue="%27Ms.Qos.OutgoingServiceRequest%27"
+        separator="=" value="'Ms.Qos.OutgoingServiceRequest'" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="*pageName"
+        recordRawValue="%27None%27" separator="=" value="'None'" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true"
+        name="*impressionGuid"
+        recordRawValue="%273411a7e0-18fd-4df9-c7c8-6a9a98dfc472%27"
+        separator="=" value="'3411a7e0-18fd-4df9-c7c8-6a9a98dfc472'" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="*market"
+        recordRawValue="%27en-US%27" separator="=" value="'en-US'" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="false" name="*customData"
+        recordRawValue="%27%7B%22computedDuration%22%3A503.59953216374197%2C%22perfDuration%22%3A70.4290058479528%2C%22metaTags%22%3A%7B%22pgpart%22%3A%22mswelcomeie11%22%7D%2C%22config%22%3A%7B%22ver%22%3A%2210.19284.2%22%2C%22mkt%22%3A%22en-US%22%2C%22ptn%22%3A%22mswelcomeie11%22%2C%22gfx%22%3A%22https%3A%2F%2Fmem.gfx.ms%2Fscripts%2Fme%22%2C%22dbg%22%3Afalse%2C%22aad%22%3Atrue%2C%22int%22%3Afalse%2C%22pxy%22%3Afalse%2C%22msTxt%22%3Afalse%2C%22rwd%22%3Atrue%2C%22telEvs%22%3A%22PageAction%2C%20PageView%2C%20ContentUpdate%2C%20OutgoingRequest%2C%20ClientError%2C%20PartnerApiCall%2C%20TrackedScenario%22%2C%22remAcc%22%3Atrue%2C%22main%22%3A%22meBoot%22%2C%22wreply%22%3Anull%2C%22wrapperId%22%3Anull%2C%22cdnRegex%22%3A%22%5E(%3F%3Ahttps%3F%3A%5C%5C%2F%5C%5C%2F)%3F(mem%5C%5C.gfx%5C%5C.ms(%3F!%5C%5C.)%7Ccontrols%5C%5C.account.microsoft%3F(%3F%3A-int%7C-dev)%3F(%5C%5C.com)%3F(%3A%5B0-9%5D%7B1%2C6%7D)%7Camcdn%5C%5C.ms(%3F%3Aft)%3Fauth%5C%5C.net(%3F!%5C%5C.))%22%7D%2C%22url%22%3A%22https%3A%2F%2Fwww.microsoft.com%2Fen-in%2Fwelcomeie11%2F%22%2C%22accts%22%3A%220-0%22%7D%27"
+        separator="="
+        value="%27%7B%22computedDuration%22%3A503.59953216374197%2C%22perfDuration%22%3A70.4290058479528%2C%22metaTags%22%3A%7B%22pgpart%22%3A%22mswelcomeie11%22%7D%2C%22config%22%3A%7B%22ver%22%3A%2210.19284.2%22%2C%22mkt%22%3A%22en-US%22%2C%22ptn%22%3A%22mswelcomeie11%22%2C%22gfx%22%3A%22https%3A%2F%2Fmem.gfx.ms%2Fscripts%2Fme%22%2C%22dbg%22%3Afalse%2C%22aad%22%3Atrue%2C%22int%22%3Afalse%2C%22pxy%22%3Afalse%2C%22msTxt%22%3Afalse%2C%22rwd%22%3Atrue%2C%22telEvs%22%3A%22PageAction%2C%20PageView%2C%20ContentUpdate%2C%20OutgoingRequest%2C%20ClientError%2C%20PartnerApiCall%2C%20TrackedScenario%22%2C%22remAcc%22%3Atrue%2C%22main%22%3A%22meBoot%22%2C%22wreply%22%3Anull%2C%22wrapperId%22%3Anull%2C%22cdnRegex%22%3A%22%5E(%3F%3Ahttps%3F%3A%5C%5C%2F%5C%5C%2F)%3F(mem%5C%5C.gfx%5C%5C.ms(%3F!%5C%5C.)%7Ccontrols%5C%5C.account.microsoft%3F(%3F%3A-int%7C-dev)%3F(%5C%5C.com)%3F(%3A%5B0-9%5D%7B1%2C6%7D)%7Camcdn%5C%5C.ms(%3F%3Aft)%3Fauth%5C%5C.net(%3F!%5C%5C.))%22%7D%2C%22url%22%3A%22https%3A%2F%2Fwww.microsoft.com%2Fen-in%2Fwelcomeie11%2F%22%2C%22accts%22%3A%220-0%22%7D%27" valueMode="USE_VALUE"/>
+    <header name="Accept" value="image/png, image/svg+xml, image/jxr, image/*;q=0.8, */*;q=0.5"/>
+    <header name="Accept-Encoding" value="gzip, deflate"/>
+    <header name="Accept-Language" value="en-IN"/>
+    <header name="Connection" value="Keep-Alive"/>
+    <header name="Cookie" value="MS-CV=GiI+4Rtdlke6j1n0.1"/>
+    <header name="Host" value="web.vortex.data.microsoft.com"/>
+    <header name="Referer" value="https://www.microsoft.com/en-in/welcomeie11/"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Cache-Control: no-cache, no-store&#xd;
+Pragma: no-cache&#xd;
+Content-Length: 43&#xd;
+Content-Type: image/gif&#xd;
+Expires: 0&#xd;
+X-Content-Type-Options: nosniff&#xd;
+MS-CV: PjPRXADeDEG1137zC1br7Q.0&#xd;
+Set-Cookie: MC1=GUID=641a28efa6524533bf429c32cf9cf916&amp;HASH=641a&amp;LV=201910&amp;V=4&amp;LU=1571844614372; Domain=.microsoft.com; Expires=Thu, 22 Oct 2020 15:30:14 GMT; Path=/&#xd;
+Set-Cookie: MS0=7d9b764f24b34f7a9d627dad0312b802; Domain=.microsoft.com; Expires=Wed, 23 Oct 2019 16:00:14 GMT; Path=/&#xd;
+P3P: CP="ALL IND DSP COR ADM CONo CUR CUSo IVAo IVDo PSA PSD TAI TELo OUR SAMo CNT COM INT NAV ONL PHY PRE PUR UNI"&#xd;
+Date: Wed, 23 Oct 2019 15:30:13 GMT</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="image/gif"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/collect/v1/t.gif" path="/collect/v1/t.gif"
+    postType="1"
+    recordedArtifactZipFileName="team/vus/sample_1/%resources%/recorded-artifacts/945c342f-c56e-45f4-943d-0b53f59fb155.zip"
+    recordedResponseCode="200" responseSize="0"
+    serverUid="web.vortex.data.microsoft.com" slaProfileEnabled="false"
+    uid="d25d31d4-7c7b-4c5f-bcae-8ec23d8e632d" useKeepAlive="false">
+    <requestContentFileDescription>recorded-requests/req_d25d31d4-7c7b-4c5f-bcae-8ec23d8e632d.txt</requestContentFileDescription>
+    <parameter encodeName="true" encodeValue="true" name="ver"
+        recordRawValue="%272.1%27" separator="=" value="'2.1'" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="name"
+        recordRawValue="%27Ms.Webi.MeControl.TrackedScenario%27"
+        separator="=" value="'Ms.Webi.MeControl.TrackedScenario'" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="time"
+        recordRawValue="%272019-10-23T15%3A30%3A12.152Z%27"
+        separator="=" value="'2019-10-23T15:30:12.152Z'" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="appId"
+        recordRawValue="%27JS%3AMeControl%27" separator="="
+        value="'JS:MeControl'" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="cV"
+        recordRawValue="%27B8UddoFCehZs39ps.6%27" separator="="
+        value="'B8UddoFCehZs39ps.6'" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true"
+        name="ext-javascript-ver" recordRawValue="%271.1%27"
+        separator="=" value="'1.1'" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true"
+        name="ext-javascript-libVer" recordRawValue="%274.2.3%27"
+        separator="=" value="'4.2.3'" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true"
+        name="ext-javascript-domain"
+        recordRawValue="%27www.microsoft.com%27" separator="="
+        value="'www.microsoft.com'" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true"
+        name="ext-javascript-userConsent" recordRawValue="false"
+        separator="=" value="false" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="ext-app-env"
+        recordRawValue="%27Prod%27" separator="=" value="'Prod'" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="*partner"
+        recordRawValue="%27mswelcomeie11%27" separator="="
+        value="'mswelcomeie11'" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true"
+        name="*controlVersion" recordRawValue="%2710.19284.2%27"
+        separator="=" value="'10.19284.2'" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="*market"
+        recordRawValue="%27en-US%27" separator="=" value="'en-US'" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="*scenario"
+        recordRawValue="%27Interactive%27" separator="="
+        value="'Interactive'" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="*action"
+        recordRawValue="%27END%27" separator="=" value="'END'" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true"
+        name="*previousAction" recordRawValue="%27START%27"
+        separator="=" value="'START'" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="*success"
+        recordRawValue="true" separator="=" value="true" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="*durationMs"
+        recordRawValue="734.099649122807" separator="="
+        value="734.099649122807" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="*details"
+        recordRawValue="%27Web%20header%27" separator="="
+        value="'Web header'" valueMode="USE_VALUE"/>
+    <header name="Accept" value="image/png, image/svg+xml, image/jxr, image/*;q=0.8, */*;q=0.5"/>
+    <header name="Accept-Encoding" value="gzip, deflate"/>
+    <header name="Accept-Language" value="en-IN"/>
+    <header name="Connection" value="Keep-Alive"/>
+    <header name="Cookie" value="MS-CV=GiI+4Rtdlke6j1n0.1"/>
+    <header name="Host" value="web.vortex.data.microsoft.com"/>
+    <header name="Referer" value="https://www.microsoft.com/en-in/welcomeie11/"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Cache-Control: no-cache, no-store&#xd;
+Pragma: no-cache&#xd;
+Content-Length: 43&#xd;
+Content-Type: image/gif&#xd;
+Expires: 0&#xd;
+X-Content-Type-Options: nosniff&#xd;
+MS-CV: 0R4EbhxPx0W/XqV6JU2YfQ.0&#xd;
+Set-Cookie: MC1=GUID=ffde3a59f0fe404ba73214baf120165d&amp;HASH=ffde&amp;LV=201910&amp;V=4&amp;LU=1571844614373; Domain=.microsoft.com; Expires=Thu, 22 Oct 2020 15:30:14 GMT; Path=/&#xd;
+Set-Cookie: MS0=efd7ac1121c84ba8bc4843cf45059ffe; Domain=.microsoft.com; Expires=Wed, 23 Oct 2019 16:00:14 GMT; Path=/&#xd;
+P3P: CP="ALL IND DSP COR ADM CONo CUR CUSo IVAo IVDo PSA PSD TAI TELo OUR SAMo CNT COM INT NAV ONL PHY PRE PUR UNI"&#xd;
+Date: Wed, 23 Oct 2019 15:30:14 GMT</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="image/gif"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/collect/v1/t.gif" path="/collect/v1/t.gif"
+    postType="1"
+    recordedArtifactZipFileName="team/vus/sample_1/%resources%/recorded-artifacts/945c342f-c56e-45f4-943d-0b53f59fb155.zip"
+    recordedResponseCode="200" responseSize="0"
+    serverUid="web.vortex.data.microsoft.com" slaProfileEnabled="false"
+    uid="ae52b71c-d288-46d6-a3b2-901677ce9502" useKeepAlive="false">
+    <requestContentFileDescription>recorded-requests/req_ae52b71c-d288-46d6-a3b2-901677ce9502.txt</requestContentFileDescription>
+    <parameter encodeName="true" encodeValue="true" name="ver"
+        recordRawValue="%272.1%27" separator="=" value="'2.1'" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="name"
+        recordRawValue="%27Ms.Webi.OutgoingRequest%27" separator="="
+        value="'Ms.Webi.OutgoingRequest'" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="time"
+        recordRawValue="%272019-10-23T15%3A30%3A11.414Z%27"
+        separator="=" value="'2019-10-23T15:30:11.414Z'" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="appId"
+        recordRawValue="%27JS%3AMeControl%27" separator="="
+        value="'JS:MeControl'" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="cV"
+        recordRawValue="%27B8UddoFCehZs39ps.1%27" separator="="
+        value="'B8UddoFCehZs39ps.1'" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true"
+        name="ext-javascript-ver" recordRawValue="%271.1%27"
+        separator="=" value="'1.1'" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true"
+        name="ext-javascript-libVer" recordRawValue="%274.2.3%27"
+        separator="=" value="'4.2.3'" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true"
+        name="ext-javascript-domain"
+        recordRawValue="%27www.microsoft.com%27" separator="="
+        value="'www.microsoft.com'" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true"
+        name="ext-javascript-userConsent" recordRawValue="false"
+        separator="=" value="false" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="ext-app-env"
+        recordRawValue="%27Prod%27" separator="=" value="'Prod'" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true"
+        name="-operationName" recordRawValue="%27meversion%27"
+        separator="=" value="'meversion'" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true"
+        name="-dependencyOperationName"
+        recordRawValue="%27LoadResource%27" separator="="
+        value="'LoadResource'" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true"
+        name="-dependencyName" recordRawValue="%27MeControl%27"
+        separator="=" value="'MeControl'" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="-latencyMs"
+        recordRawValue="5380" separator="=" value="5380" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="-succeeded"
+        recordRawValue="true" separator="=" value="true" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="-targetUri"
+        recordRawValue="%27https%3A%2F%2Fmem.gfx.ms%2Fmeversion%3Fpartner%3D**%26market%3D**%26uhf%3D**%27"
+        separator="="
+        value="'https://mem.gfx.ms/meversion?partner=**&amp;market=**&amp;uhf=**'" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="*baseType"
+        recordRawValue="%27Ms.Qos.OutgoingServiceRequest%27"
+        separator="=" value="'Ms.Qos.OutgoingServiceRequest'" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="*pageName"
+        recordRawValue="%27None%27" separator="=" value="'None'" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true"
+        name="*impressionGuid"
+        recordRawValue="%273411a7e0-18fd-4df9-c7c8-6a9a98dfc472%27"
+        separator="=" value="'3411a7e0-18fd-4df9-c7c8-6a9a98dfc472'" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="*market"
+        recordRawValue="%27en-US%27" separator="=" value="'en-US'" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="false" name="*customData"
+        recordRawValue="%27%7B%22computedDuration%22%3A14925.938713450292%2C%22perfDuration%22%3A5380.205847953216%2C%22metaTags%22%3A%7B%22pgpart%22%3A%22mswelcomeie11%22%7D%2C%22config%22%3A%7B%22ver%22%3A%2210.19284.2%22%2C%22mkt%22%3A%22en-US%22%2C%22ptn%22%3A%22mswelcomeie11%22%2C%22gfx%22%3A%22https%3A%2F%2Fmem.gfx.ms%2Fscripts%2Fme%22%2C%22dbg%22%3Afalse%2C%22aad%22%3Atrue%2C%22int%22%3Afalse%2C%22pxy%22%3Afalse%2C%22msTxt%22%3Afalse%2C%22rwd%22%3Atrue%2C%22telEvs%22%3A%22PageAction%2C%20PageView%2C%20ContentUpdate%2C%20OutgoingRequest%2C%20ClientError%2C%20PartnerApiCall%2C%20TrackedScenario%22%2C%22remAcc%22%3Atrue%2C%22main%22%3A%22meBoot%22%2C%22wreply%22%3Anull%2C%22wrapperId%22%3Anull%2C%22cdnRegex%22%3A%22%5E(%3F%3Ahttps%3F%3A%5C%5C%2F%5C%5C%2F)%3F(mem%5C%5C.gfx%5C%5C.ms(%3F!%5C%5C.)%7Ccontrols%5C%5C.account.microsoft%3F(%3F%3A-int%7C-dev)%3F(%5C%5C.com)%3F(%3A%5B0-9%5D%7B1%2C6%7D)%7Camcdn%5C%5C.ms(%3F%3Aft)%3Fauth%5C%5C.net(%3F!%5C%5C.))%22%7D%2C%22url%22%3A%22https%3A%2F%2Fwww.microsoft.com%2Fen-in%2Fwelcomeie11%2F%22%2C%22accts%22%3A%220-0%22%7D%27"
+        separator="="
+        value="%27%7B%22computedDuration%22%3A14925.938713450292%2C%22perfDuration%22%3A5380.205847953216%2C%22metaTags%22%3A%7B%22pgpart%22%3A%22mswelcomeie11%22%7D%2C%22config%22%3A%7B%22ver%22%3A%2210.19284.2%22%2C%22mkt%22%3A%22en-US%22%2C%22ptn%22%3A%22mswelcomeie11%22%2C%22gfx%22%3A%22https%3A%2F%2Fmem.gfx.ms%2Fscripts%2Fme%22%2C%22dbg%22%3Afalse%2C%22aad%22%3Atrue%2C%22int%22%3Afalse%2C%22pxy%22%3Afalse%2C%22msTxt%22%3Afalse%2C%22rwd%22%3Atrue%2C%22telEvs%22%3A%22PageAction%2C%20PageView%2C%20ContentUpdate%2C%20OutgoingRequest%2C%20ClientError%2C%20PartnerApiCall%2C%20TrackedScenario%22%2C%22remAcc%22%3Atrue%2C%22main%22%3A%22meBoot%22%2C%22wreply%22%3Anull%2C%22wrapperId%22%3Anull%2C%22cdnRegex%22%3A%22%5E(%3F%3Ahttps%3F%3A%5C%5C%2F%5C%5C%2F)%3F(mem%5C%5C.gfx%5C%5C.ms(%3F!%5C%5C.)%7Ccontrols%5C%5C.account.microsoft%3F(%3F%3A-int%7C-dev)%3F(%5C%5C.com)%3F(%3A%5B0-9%5D%7B1%2C6%7D)%7Camcdn%5C%5C.ms(%3F%3Aft)%3Fauth%5C%5C.net(%3F!%5C%5C.))%22%7D%2C%22url%22%3A%22https%3A%2F%2Fwww.microsoft.com%2Fen-in%2Fwelcomeie11%2F%22%2C%22accts%22%3A%220-0%22%7D%27" valueMode="USE_VALUE"/>
+    <header name="Accept" value="image/png, image/svg+xml, image/jxr, image/*;q=0.8, */*;q=0.5"/>
+    <header name="Accept-Encoding" value="gzip, deflate"/>
+    <header name="Accept-Language" value="en-IN"/>
+    <header name="Connection" value="Keep-Alive"/>
+    <header name="Cookie" value="MS-CV=GiI+4Rtdlke6j1n0.1"/>
+    <header name="Host" value="web.vortex.data.microsoft.com"/>
+    <header name="Referer" value="https://www.microsoft.com/en-in/welcomeie11/"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Cache-Control: no-cache, no-store&#xd;
+Pragma: no-cache&#xd;
+Content-Length: 43&#xd;
+Content-Type: image/gif&#xd;
+Expires: 0&#xd;
+X-Content-Type-Options: nosniff&#xd;
+MS-CV: WecO+CEWxkuSWg94gzbQxA.0&#xd;
+Set-Cookie: MC1=GUID=9ba3a5fbd2ad47d18deca85d7f428cb5&amp;HASH=9ba3&amp;LV=201910&amp;V=4&amp;LU=1571844614381; Domain=.microsoft.com; Expires=Thu, 22 Oct 2020 15:30:14 GMT; Path=/&#xd;
+Set-Cookie: MS0=922e0396178a41648d5c80dcc91bb68e; Domain=.microsoft.com; Expires=Wed, 23 Oct 2019 16:00:14 GMT; Path=/&#xd;
+P3P: CP="ALL IND DSP COR ADM CONo CUR CUSo IVAo IVDo PSA PSD TAI TELo OUR SAMo CNT COM INT NAV ONL PHY PRE PUR UNI"&#xd;
+Date: Wed, 23 Oct 2019 15:30:13 GMT</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>

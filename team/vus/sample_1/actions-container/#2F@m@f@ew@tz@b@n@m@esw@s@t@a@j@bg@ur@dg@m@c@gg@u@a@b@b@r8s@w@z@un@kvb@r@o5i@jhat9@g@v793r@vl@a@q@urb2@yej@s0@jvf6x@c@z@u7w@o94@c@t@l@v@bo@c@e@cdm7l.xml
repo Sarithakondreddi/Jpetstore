@@ -1,0 +1,105 @@
+<http-page executeResourcesDynamically="false"
+    name="/MFEwTzBNMEswSTAJBgUrDgMCGgUABBR8sWZUnKvbRO5iJhat9GV793rVlAQUrb2YejS0Jvf6xCZU7wO94CTLVBoCECdm7l"
+    playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/sample_1/%resources%/recorded-artifacts/265340d5-b931-497f-865d-5b94616d4947.zip"
+    slaProfileEnabled="false" thinkTime="6281"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="265340d5-b931-497f-865d-5b94616d4947">
+    <embedded-action>08179ba4-0522-4bc5-8c7a-a7d0749b2f27</embedded-action>
+    <embedded-action>0867dd8a-6fc6-4c3a-ae02-2cfa71121ece</embedded-action>
+    <embedded-action>c6091ea7-76a1-4a85-99bf-8554380ce4b4</embedded-action>
+    <screenshotFileDescription>recorded-screenshots/sc_4f3b957d-e7d9-4521-881c-41595e30eb43.jpg</screenshotFileDescription>
+</http-page>
+<http-action actionType="1" contentType="application/ocsp-response"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET"
+    name="/MFEwTzBNMEswSTAJBgUrDgMCGgUABBR8sWZUnKvbRO5iJhat9GV793rVlAQUrb2YejS0Jvf6xCZU7wO94CTLVBoCECdm7lbrSfOOq9dwovyE3iI%3D"
+    path="/MFEwTzBNMEswSTAJBgUrDgMCGgUABBR8sWZUnKvbRO5iJhat9GV793rVlAQUrb2YejS0Jvf6xCZU7wO94CTLVBoCECdm7lbrSfOOq9dwovyE3iI%3D"
+    postType="1"
+    recordedArtifactZipFileName="team/vus/sample_1/%resources%/recorded-artifacts/265340d5-b931-497f-865d-5b94616d4947.zip"
+    recordedResponseCode="200" responseSize="0"
+    serverUid="ocsp.usertrust.com" slaProfileEnabled="false"
+    uid="08179ba4-0522-4bc5-8c7a-a7d0749b2f27" useKeepAlive="false">
+    <requestContentFileDescription>recorded-requests/req_08179ba4-0522-4bc5-8c7a-a7d0749b2f27.txt</requestContentFileDescription>
+    <header name="Accept" value="*/*"/>
+    <header name="Host" value="ocsp.usertrust.com"/>
+    <header name="User-Agent" value="Microsoft-CryptoAPI/10.0"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Date: Wed, 23 Oct 2019 15:29:49 GMT&#xd;
+Accept-Ranges: bytes&#xd;
+Content-Type: application/ocsp-response&#xd;
+Last-Modified: Tue, 22 Oct 2019 14:45:52 GMT&#xd;
+Server: Apache&#xd;
+ETag: 8C54C45EB8EC52BE3465546A23EC8C79EE30784C&#xd;
+Cache-Control: max-age=515879,s-maxage=1800,public,no-transform,must-revalidate&#xd;
+X-OCSP-Responder-ID: scdpcaocsp12&#xd;
+X-HW: 1571844589.cds027.si2.h2,1571844589.cds041.si2.c&#xd;
+Connection: keep-alive&#xd;
+Content-Length: 471</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="application/ocsp-response"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET"
+    name="/MFEwTzBNMEswSTAJBgUrDgMCGgUABBReAhtobFzTvhaRmVeJ38QUchY9AwQUu69%2BAj36pvE8hI6t7jiY7NkyMtQCEC58h8wOk0pS%2FpT9HLfNNK8%3D"
+    path="/MFEwTzBNMEswSTAJBgUrDgMCGgUABBReAhtobFzTvhaRmVeJ38QUchY9AwQUu69%2BAj36pvE8hI6t7jiY7NkyMtQCEC58h8wOk0pS%2FpT9HLfNNK8%3D"
+    postType="1"
+    recordedArtifactZipFileName="team/vus/sample_1/%resources%/recorded-artifacts/265340d5-b931-497f-865d-5b94616d4947.zip"
+    recordedResponseCode="200" responseSize="0"
+    serverUid="ocsp.comodoca.com" slaProfileEnabled="false"
+    uid="0867dd8a-6fc6-4c3a-ae02-2cfa71121ece" useKeepAlive="false">
+    <requestContentFileDescription>recorded-requests/req_0867dd8a-6fc6-4c3a-ae02-2cfa71121ece.txt</requestContentFileDescription>
+    <header name="Accept" value="*/*"/>
+    <header name="Host" value="ocsp.comodoca.com"/>
+    <header name="User-Agent" value="Microsoft-CryptoAPI/10.0"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Date: Wed, 23 Oct 2019 15:29:50 GMT&#xd;
+Accept-Ranges: bytes&#xd;
+Content-Type: application/ocsp-response&#xd;
+Last-Modified: Tue, 22 Oct 2019 14:45:52 GMT&#xd;
+Server: Apache&#xd;
+ETag: 95814ECD581F8AB0E6799610BBE7FF3B64F9E2EB&#xd;
+Cache-Control: max-age=515878,s-maxage=1800,public,no-transform,must-revalidate&#xd;
+X-OCSP-Responder-ID: scdpcaocsp10&#xd;
+X-HW: 1571844590.cds021.si2.h2,1571844590.cds032.si2.c&#xd;
+Connection: keep-alive&#xd;
+Content-Length: 727</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="application/ocsp-response"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET"
+    name="/MFIwUDBOMEwwSjAJBgUrDgMCGgUABBSSdxXdG447ymkRNPVViULv3rkBzQQUKZFg%2F4pN%2Buv5pmq4z%2FnmS71JzhICEQCYsYLq9d%2BL3g%2BIcu3iEMde"
+    path="/MFIwUDBOMEwwSjAJBgUrDgMCGgUABBSSdxXdG447ymkRNPVViULv3rkBzQQUKZFg%2F4pN%2Buv5pmq4z%2FnmS71JzhICEQCYsYLq9d%2BL3g%2BIcu3iEMde"
+    postType="1"
+    recordedArtifactZipFileName="team/vus/sample_1/%resources%/recorded-artifacts/265340d5-b931-497f-865d-5b94616d4947.zip"
+    recordedResponseCode="200" responseSize="0"
+    serverUid="ocsp.comodoca.com" slaProfileEnabled="false"
+    uid="c6091ea7-76a1-4a85-99bf-8554380ce4b4" useKeepAlive="false">
+    <requestContentFileDescription>recorded-requests/req_c6091ea7-76a1-4a85-99bf-8554380ce4b4.txt</requestContentFileDescription>
+    <header name="Accept" value="*/*"/>
+    <header name="Host" value="ocsp.comodoca.com"/>
+    <header name="User-Agent" value="Microsoft-CryptoAPI/10.0"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Date: Wed, 23 Oct 2019 15:29:50 GMT&#xd;
+Accept-Ranges: bytes&#xd;
+Content-Type: application/ocsp-response&#xd;
+Last-Modified: Mon, 21 Oct 2019 02:10:40 GMT&#xd;
+Server: Apache&#xd;
+ETag: D43805EA462F4C6535C1B112669B928756554262&#xd;
+Cache-Control: max-age=384037,s-maxage=1800,public,no-transform,must-revalidate&#xd;
+X-OCSP-Responder-ID: scdpcaocsp1&#xd;
+X-HW: 1571844590.cds021.si2.h2,1571844590.cds030.si2.c&#xd;
+Connection: keep-alive&#xd;
+Content-Length: 472</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>

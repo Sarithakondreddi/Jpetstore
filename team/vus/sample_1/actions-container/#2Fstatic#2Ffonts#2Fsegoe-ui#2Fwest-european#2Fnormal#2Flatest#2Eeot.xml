@@ -1,0 +1,45 @@
+<http-page executeResourcesDynamically="false"
+    name="/static/fonts/segoe-ui/west-european/normal/latest.eot"
+    playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/sample_1/%resources%/recorded-artifacts/e8c48816-d90b-4bc0-a159-af89552e168d.zip"
+    slaProfileEnabled="false" thinkTime="591"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="e8c48816-d90b-4bc0-a159-af89552e168d">
+    <embedded-action>028462f6-efc4-4f2c-b9a6-bd3e75c3843c</embedded-action>
+    <screenshotFileDescription>recorded-screenshots/sc_3bea3a16-40af-45cd-be05-05dd752fce45.jpg</screenshotFileDescription>
+</http-page>
+<http-action actionType="1" contentType="application/octet-stream"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET"
+    name="/static/fonts/segoe-ui/west-european/normal/latest.eot"
+    path="/static/fonts/segoe-ui/west-european/normal/latest.eot"
+    postType="1"
+    recordedArtifactZipFileName="team/vus/sample_1/%resources%/recorded-artifacts/e8c48816-d90b-4bc0-a159-af89552e168d.zip"
+    recordedResponseCode="200" responseSize="0"
+    serverUid="c.s-microsoft.com" slaProfileEnabled="false"
+    uid="028462f6-efc4-4f2c-b9a6-bd3e75c3843c" useKeepAlive="false">
+    <requestContentFileDescription>recorded-requests/req_028462f6-efc4-4f2c-b9a6-bd3e75c3843c.txt</requestContentFileDescription>
+    <parameter encodeName="true" encodeValue="true" name=""
+        recordRawValue="" separator="" value="" valueMode="USE_VALUE"/>
+    <header name="referer" value="https://www.microsoft.com/en-in/welcomeie11/"/>
+    <header name="accept-language" value="en-IN"/>
+    <header name="origin" value="https://www.microsoft.com"/>
+    <header name="accept-encoding" value="gzip, deflate"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko"/>
+    <header name="accept" value="*/*"/>
+    <responseHeaders>HTTP/2.0 200&#xd;
+content-length: 35047&#xd;
+content-type: application/octet-stream&#xd;
+last-modified: Mon, 14 Oct 2019 19:54:47 GMT&#xd;
+accept-ranges: bytes&#xd;
+etag: "39b8a73bc982d51:0"&#xd;
+cache-control: public, max-age=508479&#xd;
+expires: Tue, 29 Oct 2019 12:44:42 GMT&#xd;
+date: Wed, 23 Oct 2019 15:30:03 GMT&#xd;
+access-control-allow-methods: GET,POST&#xd;
+access-control-allow-origin: *</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>

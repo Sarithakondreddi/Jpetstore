@@ -1,0 +1,12 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="launch" pacingEnd="0" pacingMode="MODE_NO_PACING"
+    pacingStart="0" pacingValue="0" slaProfileEnabled="false"
+    uid="0e645808-ea1c-4793-8ca0-8b0e5e6c01f7" weightsEnabled="false">
+    <weighted-embedded-action uid="638e7e50-d03b-44d5-a002-7533812c74d3"/>
+    <weighted-embedded-action uid="c71cde4a-0682-4e6b-8151-c94c4488dced"/>
+    <weighted-embedded-action uid="694ee759-5766-4cf1-ac9d-f6a0ab74be9b"/>
+    <weighted-embedded-action uid="d1c3ba77-74b0-4925-8718-053cb412ea6d"/>
+    <weighted-embedded-action uid="945c342f-c56e-45f4-943d-0b53f59fb155"/>
+    <weighted-embedded-action uid="841cc28b-a27e-4848-940f-0b2234ab4b01"/>
+    <weighted-embedded-action uid="6f338c37-98ed-46b1-9672-581c48ddbffb"/>
+</basic-logical-action-container>
