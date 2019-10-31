@@ -1,0 +1,50 @@
+<http-page executeResourcesDynamically="false"
+    name="/cms/api/am/imageFileData/RE1Mu3b"
+    playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/sample_1/%resources%/recorded-artifacts/130667f4-1dc5-4f8a-b254-4084437044a9.zip"
+    slaProfileEnabled="false" thinkTime="2528"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="130667f4-1dc5-4f8a-b254-4084437044a9">
+    <embedded-action>20401f0a-3f25-4fad-9488-3f1ab375e5a5</embedded-action>
+    <screenshotFileDescription>recorded-screenshots/sc_df6a2418-74ed-469e-b78e-892c198636fe.jpg</screenshotFileDescription>
+</http-page>
+<http-action actionType="1" contentType="image/png"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/cms/api/am/imageFileData/RE1Mu3b"
+    path="/cms/api/am/imageFileData/RE1Mu3b" postType="1"
+    recordedArtifactZipFileName="team/vus/sample_1/%resources%/recorded-artifacts/130667f4-1dc5-4f8a-b254-4084437044a9.zip"
+    recordedResponseCode="200" responseSize="0"
+    serverUid="img-prod-cms-rt-microsoft-com.akamaized.net"
+    slaProfileEnabled="false" uid="20401f0a-3f25-4fad-9488-3f1ab375e5a5" useKeepAlive="false">
+    <requestContentFileDescription>recorded-requests/req_20401f0a-3f25-4fad-9488-3f1ab375e5a5.txt</requestContentFileDescription>
+    <parameter encodeName="true" encodeValue="true" name="ver"
+        recordRawValue="5c31" separator="=" value="5c31" valueMode="USE_VALUE"/>
+    <header name="referer" value="https://www.microsoft.com/en-in/welcomeie11/"/>
+    <header name="accept-language" value="en-IN"/>
+    <header name="accept-encoding" value="gzip, deflate"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko"/>
+    <header name="accept" value="image/png, image/svg+xml, image/jxr, image/*;q=0.8, */*;q=0.5"/>
+    <responseHeaders>HTTP/2.0 200&#xd;
+last-modified: Tue, 22 Oct 2019 13:40:22 GMT&#xd;
+server: Microsoft-IIS/10.0&#xd;
+access-control-allow-origin: *&#xd;
+x-datacenter: EastAP&#xd;
+x-activityid: c70f70f2-7eb2-4e52-af01-8031853b053d&#xd;
+x-instance: Resizer.Web_IN_1&#xd;
+x-deployment: a344ef0e55454e53af8263e4d12a32ce&#xd;
+timing-allow-origin: *&#xd;
+x-aspnet-version: 4.0.30319&#xd;
+x-powered-by: ASP.NET&#xd;
+content-type: image/png&#xd;
+content-location: https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE1Mu3b?ver=5c31&#xd;
+x-source-length: 4054&#xd;
+x-cms-cdninvalkey: am:RE1Mu3b&#xd;
+content-length: 4054&#xd;
+cache-control: public, max-age=339036&#xd;
+expires: Sun, 27 Oct 2019 13:40:37 GMT&#xd;
+date: Wed, 23 Oct 2019 15:30:01 GMT</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>

@@ -1,0 +1,6 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="Launchpage" pacingEnd="0" pacingMode="MODE_NO_PACING"
+    pacingStart="0" pacingValue="0" slaProfileEnabled="false"
+    uid="817b2827-fb48-40eb-b61f-8cbeb912343b" weightsEnabled="false">
+    <weighted-embedded-action uid="e9dbc668-bd2c-421f-bdc3-6c29979a5128"/>
+</basic-logical-action-container>

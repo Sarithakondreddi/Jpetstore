@@ -1,0 +1,44 @@
+<http-page executeResourcesDynamically="false"
+    name="/static/fonts/segoe-ui/west-european/normal/latest.eot"
+    playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/sample/%resources%/recorded-artifacts/ccf8eea8-e777-4aa6-990d-2a60d0932a58.zip"
+    slaProfileEnabled="false" thinkTime="591"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="ccf8eea8-e777-4aa6-990d-2a60d0932a58">
+    <embedded-action>8d8aab2e-cfc6-42ac-804e-2d24945f4d76</embedded-action>
+</http-page>
+<http-action actionType="1" contentType="application/octet-stream"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET"
+    name="/static/fonts/segoe-ui/west-european/normal/latest.eot"
+    path="/static/fonts/segoe-ui/west-european/normal/latest.eot"
+    postType="1"
+    recordedArtifactZipFileName="team/vus/sample/%resources%/recorded-artifacts/ccf8eea8-e777-4aa6-990d-2a60d0932a58.zip"
+    recordedResponseCode="200" responseSize="0"
+    serverUid="c.s-microsoft.com" slaProfileEnabled="false"
+    uid="8d8aab2e-cfc6-42ac-804e-2d24945f4d76" useKeepAlive="false">
+    <requestContentFileDescription>recorded-requests/req_8d8aab2e-cfc6-42ac-804e-2d24945f4d76.txt</requestContentFileDescription>
+    <parameter encodeName="true" encodeValue="true" name=""
+        recordRawValue="" separator="" value="" valueMode="USE_VALUE"/>
+    <header name="referer" value="https://www.microsoft.com/en-in/welcomeie11/"/>
+    <header name="accept-language" value="en-IN"/>
+    <header name="origin" value="https://www.microsoft.com"/>
+    <header name="accept-encoding" value="gzip, deflate"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko"/>
+    <header name="accept" value="*/*"/>
+    <responseHeaders>HTTP/2.0 200&#xd;
+content-length: 35047&#xd;
+content-type: application/octet-stream&#xd;
+last-modified: Mon, 14 Oct 2019 19:54:47 GMT&#xd;
+accept-ranges: bytes&#xd;
+etag: "39b8a73bc982d51:0"&#xd;
+cache-control: public, max-age=508479&#xd;
+expires: Tue, 29 Oct 2019 12:44:42 GMT&#xd;
+date: Wed, 23 Oct 2019 15:30:03 GMT&#xd;
+access-control-allow-methods: GET,POST&#xd;
+access-control-allow-origin: *</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>

@@ -1,0 +1,45 @@
+<http-page executeResourcesDynamically="false"
+    name="/scripts/me/MeControl/10.19284.2/en-US/meCore.min.js"
+    playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/sample/%resources%/recorded-artifacts/d8ba2836-36be-4554-945b-b9f4069666b9.zip"
+    slaProfileEnabled="false" thinkTime="718"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="d8ba2836-36be-4554-945b-b9f4069666b9">
+    <embedded-action>21bf99f8-a043-4d79-8e96-df976d862a00</embedded-action>
+</http-page>
+<http-action actionType="1" contentType="application/javascript"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET"
+    name="/scripts/me/MeControl/10.19284.2/en-US/meCore.min.js"
+    path="/scripts/me/MeControl/10.19284.2/en-US/meCore.min.js"
+    postType="1"
+    recordedArtifactZipFileName="team/vus/sample/%resources%/recorded-artifacts/d8ba2836-36be-4554-945b-b9f4069666b9.zip"
+    recordedResponseCode="200" responseSize="87406"
+    serverUid="mem.gfx.ms" slaProfileEnabled="false"
+    uid="21bf99f8-a043-4d79-8e96-df976d862a00" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_21bf99f8-a043-4d79-8e96-df976d862a00</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_21bf99f8-a043-4d79-8e96-df976d862a00.txt</requestContentFileDescription>
+    <header name="Accept" value="application/javascript, */*;q=0.8"/>
+    <header name="Accept-Encoding" value="gzip, deflate"/>
+    <header name="Accept-Language" value="en-IN"/>
+    <header name="Connection" value="Keep-Alive"/>
+    <header name="Host" value="mem.gfx.ms"/>
+    <header name="Referer" value="https://www.microsoft.com/en-in/welcomeie11/"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Cache-Control: max-age=2592000&#xd;
+Content-Type: application/javascript&#xd;
+Last-Modified: Sat, 12 Oct 2019 08:12:32 GMT&#xd;
+Accept-Ranges: bytes&#xd;
+X-Content-Type-Options: nosniff&#xd;
+X-UA-Compatible: IE=edge&#xd;
+Vary: Accept-Encoding&#xd;
+Content-Encoding: gzip&#xd;
+Content-Length: 13497&#xd;
+Date: Wed, 23 Oct 2019 15:30:12 GMT&#xd;
+Connection: keep-alive</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>

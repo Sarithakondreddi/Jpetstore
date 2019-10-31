@@ -1,0 +1,48 @@
+<http-page executeResourcesDynamically="false"
+    name="/16.000/MeControl_BIFJH8AUIiSwd4GkxGHOXA2.js"
+    playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/sample_1/%resources%/recorded-artifacts/6f338c37-98ed-46b1-9672-581c48ddbffb.zip"
+    slaProfileEnabled="false" thinkTime="1115"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="6f338c37-98ed-46b1-9672-581c48ddbffb">
+    <embedded-action>46d27592-9e07-42a9-8f32-4a6c1f13d458</embedded-action>
+    <screenshotFileDescription>recorded-screenshots/sc_68018393-1f18-4f12-a5f8-d2367b24fe0a.jpg</screenshotFileDescription>
+</http-page>
+<http-action actionType="1" contentType="application/x-javascript"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/16.000/MeControl_BIFJH8AUIiSwd4GkxGHOXA2.js"
+    path="/16.000/MeControl_BIFJH8AUIiSwd4GkxGHOXA2.js" postType="1"
+    recordedArtifactZipFileName="team/vus/sample_1/%resources%/recorded-artifacts/6f338c37-98ed-46b1-9672-581c48ddbffb.zip"
+    recordedResponseCode="200" responseSize="16817"
+    serverUid="logincdn.msauth.net" slaProfileEnabled="false"
+    uid="46d27592-9e07-42a9-8f32-4a6c1f13d458" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_46d27592-9e07-42a9-8f32-4a6c1f13d458</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_46d27592-9e07-42a9-8f32-4a6c1f13d458.txt</requestContentFileDescription>
+    <header name="referer" value="https://login.live.com/me.srf?wa=wsignin1.0&amp;wreply=https%3A%2F%2Fwww.microsoft.com&amp;uaid=dc9a2157-3591-496b-1d2d-58ea841e89fb&amp;partnerId=mswelcomeie11"/>
+    <header name="accept-language" value="en-IN"/>
+    <header name="accept-encoding" value="gzip, deflate"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko"/>
+    <header name="accept" value="application/javascript, */*;q=0.8"/>
+    <responseHeaders>HTTP/2.0 200&#xd;
+cache-control: public, max-age=31536000&#xd;
+content-length: 5884&#xd;
+content-type: application/x-javascript&#xd;
+content-encoding: gzip&#xd;
+content-md5: hw904dXbyDOsdvfQARmCPA==&#xd;
+last-modified: Mon, 23 Sep 2019 21:07:09 GMT&#xd;
+etag: 0x8D74069FF627A05&#xd;
+x-cache: TCP_HIT&#xd;
+server: Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0&#xd;
+x-ms-request-id: b0cdf4fe-f01e-0038-6b61-884e73000000&#xd;
+x-ms-version: 2009-09-19&#xd;
+x-ms-lease-status: unlocked&#xd;
+x-ms-blob-type: BlockBlob&#xd;
+access-control-expose-headers: x-ms-request-id,Server,x-ms-version,Content-Type,Content-Encoding,Cache-Control,Last-Modified,ETag,Content-MD5,x-ms-lease-status,x-ms-blob-type,Content-Length,Date,Transfer-Encoding&#xd;
+access-control-allow-origin: *&#xd;
+x-azure-ref: 0CHKwXQAAAABjyxlmfAQKSKGrPRaDVfKOTUFBMDFFREdFMDMwNwBkYjY2MmZlMy1mNDM4LTQzYzItYTI5Zi1lNjU5MGM0ZjVlNTE=&#xd;
+date: Wed, 23 Oct 2019 15:30:15 GMT</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>

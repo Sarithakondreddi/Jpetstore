@@ -1,0 +1,87 @@
+<http-page executeResourcesDynamically="false"
+    name="/en-in/CMSStyles/style.csx" playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/sample_1/%resources%/recorded-artifacts/d331d21c-e766-4b4e-abcb-5ef40615846f.zip"
+    slaProfileEnabled="false" thinkTime="1334"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="d331d21c-e766-4b4e-abcb-5ef40615846f">
+    <embedded-action>0c8de088-affb-473a-9944-bee09248c06c</embedded-action>
+    <embedded-action>0b1ffe0c-5bb4-4fc3-bcfa-dc8adb9fe1e0</embedded-action>
+    <screenshotFileDescription>recorded-screenshots/sc_cee06269-519e-4586-a33b-57aa01899fe7.jpg</screenshotFileDescription>
+</http-page>
+<http-action actionType="1" contentType="text/css"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/en-in/CMSStyles/style.csx"
+    path="/en-in/CMSStyles/style.csx" postType="1"
+    recordedArtifactZipFileName="team/vus/sample_1/%resources%/recorded-artifacts/d331d21c-e766-4b4e-abcb-5ef40615846f.zip"
+    recordedResponseCode="200" responseSize="119626"
+    serverUid="c.s-microsoft.com" slaProfileEnabled="false"
+    uid="0c8de088-affb-473a-9944-bee09248c06c" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_0c8de088-affb-473a-9944-bee09248c06c.css</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_0c8de088-affb-473a-9944-bee09248c06c.txt</requestContentFileDescription>
+    <parameter encodeName="true" encodeValue="true" name="k"
+        recordRawValue="3c9ade18-bc6a-b6bd-84c3-fc69aaaa7520_a245a031-1995-95bf-d5d0-189f24c5b3d8_00ce7f87-92cc-1345-468a-4abd2b39eff6_6e5b2ac7-688a-4a18-9695-a31e8139fa0f_b3dad3e4-0853-1041-fa46-2e9d6598a584_fc29d27f-7342-9cf3-c2b5-a04f30605f03_28863b11-6a1b-a28c-4aab-c36e3deb3375_907fa087-b443-3de8-613e-b445338dad1f_a66bb9d1-7095-dfc6-5a12-849441da475c_1b0ca1a3-6da9-0dbf-9932-198c9f68caeb_ef11258b-15d1-8dab-81d5-8d18bc3234bc_11339d5d-cf04-22ad-4987-06a506090313_50edf96d-7437-c38c-ad33-ebe81b170501_8031d0e3-4981-8dbc-2504-bbd5121027b7_3f0c3b77-e132-00a5-3afc-9a2f141e9eae_aebeacd9-6349-54aa-9608-cb67eadc2d17_0cdb912f-7479-061d-e4f3-bea46f10a753_343d1ae8-c6c4-87d3-af9d-4720b6ea8f34_a905814f-2c84-2cd4-839e-5634cc0cc383_190a3885-bf35-9fab-6806-86ce81df76f6_05c744db-5e3d-bcfb-75b0-441b9afb179b_8beffb66-d700-2891-2c8d-02e40c7ac557_889b2be3-b076-08f3-70da-2e63ad3091a5_61cbabbd-a2b1-ad40-2524-1b74c9e11909"
+        separator="="
+        value="3c9ade18-bc6a-b6bd-84c3-fc69aaaa7520_a245a031-1995-95bf-d5d0-189f24c5b3d8_00ce7f87-92cc-1345-468a-4abd2b39eff6_6e5b2ac7-688a-4a18-9695-a31e8139fa0f_b3dad3e4-0853-1041-fa46-2e9d6598a584_fc29d27f-7342-9cf3-c2b5-a04f30605f03_28863b11-6a1b-a28c-4aab-c36e3deb3375_907fa087-b443-3de8-613e-b445338dad1f_a66bb9d1-7095-dfc6-5a12-849441da475c_1b0ca1a3-6da9-0dbf-9932-198c9f68caeb_ef11258b-15d1-8dab-81d5-8d18bc3234bc_11339d5d-cf04-22ad-4987-06a506090313_50edf96d-7437-c38c-ad33-ebe81b170501_8031d0e3-4981-8dbc-2504-bbd5121027b7_3f0c3b77-e132-00a5-3afc-9a2f141e9eae_aebeacd9-6349-54aa-9608-cb67eadc2d17_0cdb912f-7479-061d-e4f3-bea46f10a753_343d1ae8-c6c4-87d3-af9d-4720b6ea8f34_a905814f-2c84-2cd4-839e-5634cc0cc383_190a3885-bf35-9fab-6806-86ce81df76f6_05c744db-5e3d-bcfb-75b0-441b9afb179b_8beffb66-d700-2891-2c8d-02e40c7ac557_889b2be3-b076-08f3-70da-2e63ad3091a5_61cbabbd-a2b1-ad40-2524-1b74c9e11909" valueMode="USE_VALUE"/>
+    <header name="referer" value="https://www.microsoft.com/en-in/welcomeie11/"/>
+    <header name="accept-language" value="en-IN"/>
+    <header name="accept-encoding" value="gzip, deflate"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko"/>
+    <header name="accept" value="text/css, */*"/>
+    <responseHeaders>HTTP/2.0 200&#xd;
+content-type: text/css&#xd;
+etag: "loz25WWI/wHKw+Jmc/dJMw=="&#xd;
+access-control-allow-headers: Origin, X-Requested-With, Content-Type, Accept&#xd;
+access-control-allow-credentials: true&#xd;
+p3p: CP="ALL IND DSP COR ADM CONo CUR CUSo IVAo IVDo PSA PSD TAI TELo OUR SAMo CNT COM INT NAV ONL PHY PRE PUR UNI"&#xd;
+x-frame-options: SAMEORIGIN&#xd;
+vary: Accept-Encoding&#xd;
+content-encoding: gzip&#xd;
+content-length: 18903&#xd;
+cache-control: private, max-age=237598&#xd;
+expires: Sat, 26 Oct 2019 09:29:56 GMT&#xd;
+date: Wed, 23 Oct 2019 15:29:58 GMT&#xd;
+access-control-allow-methods: GET,POST&#xd;
+access-control-allow-origin: *</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="text/css"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/statics/override.css"
+    path="/statics/override.css" postType="1"
+    recordedArtifactZipFileName="team/vus/sample_1/%resources%/recorded-artifacts/d331d21c-e766-4b4e-abcb-5ef40615846f.zip"
+    recordedResponseCode="200" responseSize="1531"
+    serverUid="statics-marketingsites-eas-ms-com.akamaized.net"
+    slaProfileEnabled="false" uid="0b1ffe0c-5bb4-4fc3-bcfa-dc8adb9fe1e0" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_0b1ffe0c-5bb4-4fc3-bcfa-dc8adb9fe1e0.css</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_0b1ffe0c-5bb4-4fc3-bcfa-dc8adb9fe1e0.txt</requestContentFileDescription>
+    <parameter encodeName="true" encodeValue="true" name="c"
+        recordRawValue="7" separator="=" value="7" valueMode="USE_VALUE"/>
+    <header name="Accept" value="text/css, */*"/>
+    <header name="Accept-Encoding" value="gzip, deflate"/>
+    <header name="Accept-Language" value="en-IN"/>
+    <header name="Connection" value="Keep-Alive"/>
+    <header name="Host" value="statics-marketingsites-eas-ms-com.akamaized.net"/>
+    <header name="Referer" value="https://www.microsoft.com/en-in/welcomeie11/"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Content-Type: text/css&#xd;
+Last-Modified: Tue, 11 Jun 2019 23:22:13 GMT&#xd;
+ETag: 0x8D6EEC3A2D67C35&#xd;
+Server: Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0&#xd;
+x-ms-request-id: c567e25c-401e-006a-2fc4-5e56a1000000&#xd;
+x-ms-version: 2009-09-19&#xd;
+x-ms-lease-status: unlocked&#xd;
+x-ms-blob-type: BlockBlob&#xd;
+Vary: Accept-Encoding&#xd;
+Content-Encoding: gzip&#xd;
+Date: Wed, 23 Oct 2019 15:29:58 GMT&#xd;
+Content-Length: 473&#xd;
+Connection: keep-alive</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>

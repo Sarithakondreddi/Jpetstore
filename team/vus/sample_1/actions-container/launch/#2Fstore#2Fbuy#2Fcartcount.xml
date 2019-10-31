@@ -1,0 +1,87 @@
+<http-page executeResourcesDynamically="false"
+    name="/store/buy/cartcount" playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/sample_1/%resources%/recorded-artifacts/694ee759-5766-4cf1-ac9d-f6a0ab74be9b.zip"
+    slaProfileEnabled="false" thinkTime="0"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="694ee759-5766-4cf1-ac9d-f6a0ab74be9b">
+    <embedded-action>a4125d88-b909-4c05-ba45-34133947e9a8</embedded-action>
+    <embedded-action>d58daf02-7fc3-4c1e-9af8-4c1a98d24d1d</embedded-action>
+    <screenshotFileDescription>recorded-screenshots/sc_6d860e01-b1f9-4a81-b45a-bdb2cec46ea6.jpg</screenshotFileDescription>
+</http-page>
+<http-action actionType="1" contentType="text/html; charset=utf-8"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/store/buy/cartcount" path="/store/buy/cartcount"
+    postType="1"
+    recordedArtifactZipFileName="team/vus/sample_1/%resources%/recorded-artifacts/694ee759-5766-4cf1-ac9d-f6a0ab74be9b.zip"
+    recordedResponseCode="200" responseSize="977"
+    serverUid="www.microsoft.com" slaProfileEnabled="false"
+    uid="a4125d88-b909-4c05-ba45-34133947e9a8" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_a4125d88-b909-4c05-ba45-34133947e9a8.html</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_a4125d88-b909-4c05-ba45-34133947e9a8.txt</requestContentFileDescription>
+    <header name="referer" value="https://www.microsoft.com/en-in/welcomeie11/"/>
+    <header name="cookie" value="MS-CV=GiI+4Rtdlke6j1n0.1"/>
+    <header name="accept-language" value="en-IN"/>
+    <header name="accept-encoding" value="gzip, deflate"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko"/>
+    <header name="accept" value="text/html, application/xhtml+xml, image/jxr, */*"/>
+    <responseHeaders>HTTP/2.0 200&#xd;
+pragma: no-cache&#xd;
+content-type: text/html; charset=utf-8&#xd;
+content-encoding: gzip&#xd;
+x-activity-id: 3eb89fab-8380-4bea-9cfd-715b45d24184&#xd;
+ms-cv: /C4Ug64+u0ahPKZI.0&#xd;
+x-appversion: 1.0.7230.30128&#xd;
+x-az: {did:e4877ed1fa8a46279b0b9b59e443e9a6, rid: 14, sn: onestore-eas-prod, dt: 2019-10-22T05:22:51.7300596Z, bt: 2019-10-18T16:44:16.0000000Z}&#xd;
+ms-operation-id: 1cd912e53b36f34e877ade915d3ad22d&#xd;
+p3p: CP="NON DSP ADM DEV PSD OUR IND STP PHY PRE NAV UNI"&#xd;
+access-control-allow-methods: HEAD,GET,POST,PATCH,PUT,OPTIONS&#xd;
+x-xss-protection: 1&#xd;
+content-length: 391&#xd;
+cache-control: max-age=86400&#xd;
+expires: Thu, 24 Oct 2019 15:30:11 GMT&#xd;
+date: Wed, 23 Oct 2019 15:30:11 GMT&#xd;
+vary: Accept-Encoding&#xd;
+tls_version: tls1.2&#xd;
+strict-transport-security: max-age=31536000&#xd;
+x-rtag: Str</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="application/javascript"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET"
+    name="/scripts/me/MeControl/10.19284.2/en-US/meBoot.min.js"
+    path="/scripts/me/MeControl/10.19284.2/en-US/meBoot.min.js"
+    postType="1"
+    recordedArtifactZipFileName="team/vus/sample_1/%resources%/recorded-artifacts/694ee759-5766-4cf1-ac9d-f6a0ab74be9b.zip"
+    recordedResponseCode="200" responseSize="128032"
+    serverUid="mem.gfx.ms" slaProfileEnabled="false"
+    uid="d58daf02-7fc3-4c1e-9af8-4c1a98d24d1d" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_d58daf02-7fc3-4c1e-9af8-4c1a98d24d1d</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_d58daf02-7fc3-4c1e-9af8-4c1a98d24d1d.txt</requestContentFileDescription>
+    <header name="Accept" value="application/javascript, */*;q=0.8"/>
+    <header name="Accept-Encoding" value="gzip, deflate"/>
+    <header name="Accept-Language" value="en-IN"/>
+    <header name="Connection" value="Keep-Alive"/>
+    <header name="Host" value="mem.gfx.ms"/>
+    <header name="Referer" value="https://www.microsoft.com/en-in/welcomeie11/"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Cache-Control: max-age=2592000&#xd;
+Content-Type: application/javascript&#xd;
+Last-Modified: Sat, 12 Oct 2019 08:12:32 GMT&#xd;
+Accept-Ranges: bytes&#xd;
+X-Content-Type-Options: nosniff&#xd;
+X-UA-Compatible: IE=edge&#xd;
+Vary: Accept-Encoding&#xd;
+Content-Encoding: gzip&#xd;
+Content-Length: 27111&#xd;
+Date: Wed, 23 Oct 2019 15:30:11 GMT&#xd;
+Connection: keep-alive</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>

@@ -1,0 +1,542 @@
+<http-page executeResourcesDynamically="false" name="/accounts/create"
+    playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/@sample1/%resources%/recorded-artifacts/8c02e7d5-6ebb-4f0f-8679-bd8310cf2bcf.zip"
+    slaProfileEnabled="false" thinkTime="69113"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="8c02e7d5-6ebb-4f0f-8679-bd8310cf2bcf">
+    <embedded-action>0ecb9cc2-24f3-42fc-9535-51011f921312</embedded-action>
+    <embedded-action>3466b4c9-8fe2-453b-a812-4391ef0a6c40</embedded-action>
+    <embedded-action>bf12792b-6b76-4870-a9ed-0d0157cdb9dc</embedded-action>
+    <embedded-action>2e66ca1f-c6e8-4db2-85eb-44c6c7fa8a7a</embedded-action>
+    <embedded-action>ffc4a7ed-b97b-4fb9-abaa-4a13b5c5d455</embedded-action>
+    <embedded-action>d88dc3e6-29b0-4bdc-a3af-38f97967f0f4</embedded-action>
+    <embedded-action>ff0cfe92-ee6c-4325-9dab-1dcf20f3f06e</embedded-action>
+    <embedded-action>f0701161-8ee8-4762-98e3-8c4573f62aa1</embedded-action>
+    <embedded-action>1be4ec37-a2fd-4e47-98ca-4e59a82a8502</embedded-action>
+    <embedded-action>7f7ddd66-0503-4e97-9957-4ace4dd493ad</embedded-action>
+    <embedded-action>b0eb826a-77ae-4a9e-ab81-e30d98605304</embedded-action>
+    <embedded-action>0ab1d184-de22-4413-a8ce-032d512fa0cb</embedded-action>
+    <screenshotFileDescription>recorded-screenshots/sc_8c02e7d5-6ebb-4f0f-8679-bd8310cf2bcf.jpg</screenshotFileDescription>
+</http-page>
+<http-action actionType="1" extractorInjectPathPolicy="2"
+    extractorPathPolicy="1" followRedirects="false"
+    generatedByClient="false" linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="POST" name="/accounts/create" path="/accounts/create"
+    postCharset="iso-8859-1" postType="1"
+    recordedArtifactZipFileName="team/vus/@sample1/%resources%/recorded-artifacts/8c02e7d5-6ebb-4f0f-8679-bd8310cf2bcf.zip"
+    recordedResponseCode="302"
+    refererUid="9a7a2a5b-ece0-4977-96b7-71a8d5b955f6" responseSize="0"
+    serverUid="jpetstore.cfapps.io" slaProfileEnabled="false"
+    uid="0ecb9cc2-24f3-42fc-9535-51011f921312" useKeepAlive="false">
+    <binaryPostContentBase64><![CDATA[X2NzcmY9OGUyMTAzYzItMTQzMS00MWFmLWJiNDAtODAyMGZhNGY5MTJmJnVzZXJuYW1lPWxpa2l0aGEmcGFzc3dvcmQ9JHtBdXRvUGFzc3dvcmRfMX0mcmVwZWF0ZWRQYXNzd29yZD0ke0F1dG9QYXNzd29yZF8yfSZmaXJzdE5hbWU9c2FyaXRoYSZsYXN0TmFtZT1rJmVtYWlsPXNhcml0aGExMjMlNDBnbWFpbC5jb20mcGhvbmU9OTg3NjU0MzIxJmFkZHJlc3MxPWNvaW1iYXRvcmUmYWRkcmVzczI9dGFtaWxuYWR1JmNpdHk9YmFuZ2Fsb3JlJnN0YXRlPWthcm5hdGFrYSZ6aXA9NTYwMDg1JmNvdW50cnk9aW5kaWEmbGFuZ3VhZ2VQcmVmZXJlbmNlPUVuZ2xpc2gmZmF2b3VyaXRlQ2F0ZWdvcnlJZD1GSVNIJl9saXN0T3B0aW9uPW9uJl9iYW5uZXJPcHRpb249b24=]]></binaryPostContentBase64>
+    <requestContentFileDescription>recorded-requests/req_0ecb9cc2-24f3-42fc-9535-51011f921312.txt</requestContentFileDescription>
+    <parameter encodeName="true" encodeValue="true" name="_csrf"
+        recordRawValue="8e2103c2-1431-41af-bb40-8020fa4f912f"
+        separator="=" value="${C_csfr}" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="username"
+        recordRawValue="likitha" separator="="
+        value="${p_acctinfo.P_username}" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="password"
+        recordRawValue="${AutoPassword_1}" separator="="
+        value="${p_acctinfo.P_password}" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true"
+        name="repeatedPassword" recordRawValue="${AutoPassword_2}"
+        separator="=" value="${p_acctinfo.P_password}" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="firstName"
+        recordRawValue="saritha" separator="="
+        value="${p_acctinfo.P_firstName}" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="lastName"
+        recordRawValue="k" separator="="
+        value="${p_acctinfo.P_lastName}" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="email"
+        recordRawValue="saritha123%40gmail.com" separator="="
+        value="${p_acctinfo.p_email}" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="phone"
+        recordRawValue="987654321" separator="="
+        value="${p_acctinfo.p_phone}" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="address1"
+        recordRawValue="coimbatore" separator="=" value="coimbatore" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="address2"
+        recordRawValue="tamilnadu" separator="=" value="tamilnadu" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="city"
+        recordRawValue="bangalore" separator="=" value="bangalore" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="state"
+        recordRawValue="karnataka" separator="=" value="karnataka" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="zip"
+        recordRawValue="560085" separator="=" value="560085" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="country"
+        recordRawValue="india" separator="=" value="india" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true"
+        name="languagePreference" recordRawValue="English" separator="="
+        value="English" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true"
+        name="favouriteCategoryId" recordRawValue="FISH" separator="="
+        value="FISH" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="_listOption"
+        recordRawValue="on" separator="=" value="on" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="_bannerOption"
+        recordRawValue="on" separator="=" value="on" valueMode="USE_VALUE"/>
+    <header name="Accept" value="text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3"/>
+    <header name="Accept-Encoding" value="gzip, deflate, br"/>
+    <header name="Accept-Language" value="en-GB,en-US;q=0.9,en;q=0.8"/>
+    <header name="Cache-Control" value="max-age=0"/>
+    <header name="Connection" value="keep-alive"/>
+    <header name="Content-Type" value="application/x-www-form-urlencoded"/>
+    <header name="Cookie" value="JSESSIONID=8363EC727F285E5F0E35AD5E605CB5B4; __VCAP_ID__=bbf425ba-b477-4f6d-597a-bf4a"/>
+    <header name="Host" value="jpetstore.cfapps.io"/>
+    <header name="Origin" value="https://jpetstore.cfapps.io"/>
+    <header name="Referer" value="https://jpetstore.cfapps.io/accounts/create?form"/>
+    <header name="Sec-Fetch-Mode" value="navigate"/>
+    <header name="Sec-Fetch-Site" value="same-origin"/>
+    <header name="Sec-Fetch-User" value="?1"/>
+    <header name="Upgrade-Insecure-Requests" value="1"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36"/>
+    <responseHeaders>HTTP/1.1 302 Found&#xd;
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate&#xd;
+Content-Language: en-GB&#xd;
+Date: Wed, 23 Oct 2019 15:34:31 GMT&#xd;
+Expires: 0&#xd;
+Location: https://jpetstore.cfapps.io/login&#xd;
+Pragma: no-cache&#xd;
+Strict-Transport-Security: max-age=31536000 ; includeSubDomains&#xd;
+X-Content-Type-Options: nosniff&#xd;
+X-Frame-Options: DENY&#xd;
+X-Vcap-Request-Id: 048bd61e-b22e-4050-64e3-fef913b80ab6&#xd;
+X-Xss-Protection: 1; mode=block&#xd;
+Content-Length: 0&#xd;
+Connection: keep-alive</responseHeaders>
+    <record-html-infos extractorOccurence="2" extractorRegExp="false" htmlType="2"/>
+</http-action>
+<http-action actionType="1" contentType="text/xml; charset=utf-8"
+    enabled="false" extractorInjectPathPolicy="2"
+    extractorPathPolicy="1" followRedirects="false"
+    generatedByClient="false" linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/en-GB/livetile/preinstall"
+    path="/en-GB/livetile/preinstall" postType="1"
+    recordedArtifactZipFileName="team/vus/@sample1/%resources%/recorded-artifacts/8c02e7d5-6ebb-4f0f-8679-bd8310cf2bcf.zip"
+    recordedResponseCode="200" responseSize="4226"
+    serverUid="tile-service.weather.microsoft.com"
+    slaProfileEnabled="false" uid="3466b4c9-8fe2-453b-a812-4391ef0a6c40" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_3466b4c9-8fe2-453b-a812-4391ef0a6c40.xml</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_3466b4c9-8fe2-453b-a812-4391ef0a6c40.txt</requestContentFileDescription>
+    <parameter encodeName="true" encodeValue="true" name="region"
+        recordRawValue="IN" separator="=" value="IN" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="appid"
+        recordRawValue="C98EA5B0842DBB9405BBF071E1DA76512D21FE36"
+        separator="=" value="C98EA5B0842DBB9405BBF071E1DA76512D21FE36" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="FORM"
+        recordRawValue="Threshold" separator="=" value="Threshold" valueMode="USE_VALUE"/>
+    <header name="Host" value="tile-service.weather.microsoft.com"/>
+    <header name="User-Agent" value="Microsoft-WNS/10.0"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Content-Type: text/xml; charset=utf-8&#xd;
+Server: Microsoft-IIS/10.0&#xd;
+X-ActivityId: c8b0a83c-f4b6-47ca-9cac-897fe41b6b65&#xd;
+Access-Control-Allow-Origin: *&#xd;
+X-AspNet-Version: 4.0.30319&#xd;
+X-Powered-By: ASP.NET&#xd;
+Cache-Control: public, max-age=818&#xd;
+Date: Wed, 23 Oct 2019 15:34:31 GMT&#xd;
+Content-Length: 4226&#xd;
+Connection: keep-alive</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="2" contentType="text/html;charset=UTF-8"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/login" path="/login" postType="1"
+    recordedArtifactZipFileName="team/vus/@sample1/%resources%/recorded-artifacts/8c02e7d5-6ebb-4f0f-8679-bd8310cf2bcf.zip"
+    recordedResponseCode="200"
+    refererUid="0ecb9cc2-24f3-42fc-9535-51011f921312"
+    responseSize="4310" serverUid="jpetstore.cfapps.io"
+    slaProfileEnabled="false" uid="bf12792b-6b76-4870-a9ed-0d0157cdb9dc" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_bf12792b-6b76-4870-a9ed-0d0157cdb9dc.html</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_bf12792b-6b76-4870-a9ed-0d0157cdb9dc.txt</requestContentFileDescription>
+    <assertions>
+        <assertion-content name="assertion_1" notType="false" pattern="Register Now!"/>
+    </assertions>
+    <header name="Accept" value="text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3"/>
+    <header name="Accept-Encoding" value="gzip, deflate, br"/>
+    <header name="Accept-Language" value="en-GB,en-US;q=0.9,en;q=0.8"/>
+    <header name="Cache-Control" value="max-age=0"/>
+    <header name="Connection" value="keep-alive"/>
+    <header name="Cookie" value="JSESSIONID=8363EC727F285E5F0E35AD5E605CB5B4; __VCAP_ID__=bbf425ba-b477-4f6d-597a-bf4a"/>
+    <header name="Host" value="jpetstore.cfapps.io"/>
+    <header name="Referer" value="https://jpetstore.cfapps.io/accounts/create?form"/>
+    <header name="Sec-Fetch-Mode" value="navigate"/>
+    <header name="Sec-Fetch-Site" value="same-origin"/>
+    <header name="Sec-Fetch-User" value="?1"/>
+    <header name="Upgrade-Insecure-Requests" value="1"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate&#xd;
+Content-Language: en-GB&#xd;
+Content-Type: text/html;charset=UTF-8&#xd;
+Date: Wed, 23 Oct 2019 15:34:31 GMT&#xd;
+Expires: 0&#xd;
+Pragma: no-cache&#xd;
+Strict-Transport-Security: max-age=31536000 ; includeSubDomains&#xd;
+X-Content-Type-Options: nosniff&#xd;
+X-Frame-Options: DENY&#xd;
+X-Vcap-Request-Id: d54080b9-0cde-4872-4ab7-74bb3f8f421c&#xd;
+X-Xss-Protection: 1; mode=block&#xd;
+transfer-encoding: chunked&#xd;
+Connection: keep-alive</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="text/css"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/css/jpetstore.css" path="/css/jpetstore.css"
+    postType="1"
+    recordedArtifactZipFileName="team/vus/@sample1/%resources%/recorded-artifacts/8c02e7d5-6ebb-4f0f-8679-bd8310cf2bcf.zip"
+    recordedResponseCode="200" responseSize="5936"
+    serverUid="jpetstore.cfapps.io" slaProfileEnabled="false"
+    uid="2e66ca1f-c6e8-4db2-85eb-44c6c7fa8a7a" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_2e66ca1f-c6e8-4db2-85eb-44c6c7fa8a7a.css</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_2e66ca1f-c6e8-4db2-85eb-44c6c7fa8a7a.txt</requestContentFileDescription>
+    <header name="Accept" value="text/css,*/*;q=0.1"/>
+    <header name="Accept-Encoding" value="gzip, deflate, br"/>
+    <header name="Accept-Language" value="en-GB,en-US;q=0.9,en;q=0.8"/>
+    <header name="Connection" value="keep-alive"/>
+    <header name="Cookie" value="JSESSIONID=8363EC727F285E5F0E35AD5E605CB5B4; __VCAP_ID__=bbf425ba-b477-4f6d-597a-bf4a"/>
+    <header name="Host" value="jpetstore.cfapps.io"/>
+    <header name="Referer" value="https://jpetstore.cfapps.io/login"/>
+    <header name="Sec-Fetch-Mode" value="no-cors"/>
+    <header name="Sec-Fetch-Site" value="same-origin"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Accept-Ranges: bytes&#xd;
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate&#xd;
+Content-Type: text/css&#xd;
+Date: Wed, 23 Oct 2019 15:34:31 GMT&#xd;
+Expires: 0&#xd;
+Last-Modified: Sat, 10 Aug 2019 09:02:56 GMT&#xd;
+Pragma: no-cache&#xd;
+Strict-Transport-Security: max-age=31536000 ; includeSubDomains&#xd;
+X-Content-Type-Options: nosniff&#xd;
+X-Frame-Options: DENY&#xd;
+X-Vcap-Request-Id: 81395721-e8e0-4253-5af3-56f811f805c7&#xd;
+X-Xss-Protection: 1; mode=block&#xd;
+Content-Length: 5936&#xd;
+Connection: keep-alive</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="image/gif"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/images/logo-topbar.gif"
+    path="/images/logo-topbar.gif" postType="1"
+    recordedArtifactZipFileName="team/vus/@sample1/%resources%/recorded-artifacts/8c02e7d5-6ebb-4f0f-8679-bd8310cf2bcf.zip"
+    recordedResponseCode="200" responseSize="0"
+    serverUid="jpetstore.cfapps.io" slaProfileEnabled="false"
+    uid="ffc4a7ed-b97b-4fb9-abaa-4a13b5c5d455" useKeepAlive="false">
+    <requestContentFileDescription>recorded-requests/req_ffc4a7ed-b97b-4fb9-abaa-4a13b5c5d455.txt</requestContentFileDescription>
+    <header name="Accept" value="image/webp,image/apng,image/*,*/*;q=0.8"/>
+    <header name="Accept-Encoding" value="gzip, deflate, br"/>
+    <header name="Accept-Language" value="en-GB,en-US;q=0.9,en;q=0.8"/>
+    <header name="Connection" value="keep-alive"/>
+    <header name="Cookie" value="JSESSIONID=8363EC727F285E5F0E35AD5E605CB5B4; __VCAP_ID__=bbf425ba-b477-4f6d-597a-bf4a"/>
+    <header name="Host" value="jpetstore.cfapps.io"/>
+    <header name="Referer" value="https://jpetstore.cfapps.io/login"/>
+    <header name="Sec-Fetch-Mode" value="no-cors"/>
+    <header name="Sec-Fetch-Site" value="same-origin"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Accept-Ranges: bytes&#xd;
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate&#xd;
+Content-Type: image/gif&#xd;
+Date: Wed, 23 Oct 2019 15:34:31 GMT&#xd;
+Expires: 0&#xd;
+Last-Modified: Sat, 10 Aug 2019 09:02:58 GMT&#xd;
+Pragma: no-cache&#xd;
+Strict-Transport-Security: max-age=31536000 ; includeSubDomains&#xd;
+X-Content-Type-Options: nosniff&#xd;
+X-Frame-Options: DENY&#xd;
+X-Vcap-Request-Id: f91c0b4d-d552-438b-5360-f4254663433f&#xd;
+X-Xss-Protection: 1; mode=block&#xd;
+Content-Length: 3808&#xd;
+Connection: keep-alive</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="image/gif"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/images/cart.gif" path="/images/cart.gif"
+    postType="1"
+    recordedArtifactZipFileName="team/vus/@sample1/%resources%/recorded-artifacts/8c02e7d5-6ebb-4f0f-8679-bd8310cf2bcf.zip"
+    recordedResponseCode="200" responseSize="0"
+    serverUid="jpetstore.cfapps.io" slaProfileEnabled="false"
+    uid="d88dc3e6-29b0-4bdc-a3af-38f97967f0f4" useKeepAlive="false">
+    <requestContentFileDescription>recorded-requests/req_d88dc3e6-29b0-4bdc-a3af-38f97967f0f4.txt</requestContentFileDescription>
+    <header name="Accept" value="image/webp,image/apng,image/*,*/*;q=0.8"/>
+    <header name="Accept-Encoding" value="gzip, deflate, br"/>
+    <header name="Accept-Language" value="en-GB,en-US;q=0.9,en;q=0.8"/>
+    <header name="Connection" value="keep-alive"/>
+    <header name="Cookie" value="JSESSIONID=8363EC727F285E5F0E35AD5E605CB5B4; __VCAP_ID__=bbf425ba-b477-4f6d-597a-bf4a"/>
+    <header name="Host" value="jpetstore.cfapps.io"/>
+    <header name="Referer" value="https://jpetstore.cfapps.io/login"/>
+    <header name="Sec-Fetch-Mode" value="no-cors"/>
+    <header name="Sec-Fetch-Site" value="same-origin"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Accept-Ranges: bytes&#xd;
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate&#xd;
+Content-Type: image/gif&#xd;
+Date: Wed, 23 Oct 2019 15:34:31 GMT&#xd;
+Expires: 0&#xd;
+Last-Modified: Sat, 10 Aug 2019 09:02:58 GMT&#xd;
+Pragma: no-cache&#xd;
+Strict-Transport-Security: max-age=31536000 ; includeSubDomains&#xd;
+X-Content-Type-Options: nosniff&#xd;
+X-Frame-Options: DENY&#xd;
+X-Vcap-Request-Id: ea28764f-7444-4ac7-72ee-8515b6f6aef0&#xd;
+X-Xss-Protection: 1; mode=block&#xd;
+Content-Length: 96&#xd;
+Connection: keep-alive</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="image/gif"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/images/separator.gif"
+    path="/images/separator.gif" postType="1"
+    recordedArtifactZipFileName="team/vus/@sample1/%resources%/recorded-artifacts/8c02e7d5-6ebb-4f0f-8679-bd8310cf2bcf.zip"
+    recordedResponseCode="200" responseSize="0"
+    serverUid="jpetstore.cfapps.io" slaProfileEnabled="false"
+    uid="ff0cfe92-ee6c-4325-9dab-1dcf20f3f06e" useKeepAlive="false">
+    <requestContentFileDescription>recorded-requests/req_ff0cfe92-ee6c-4325-9dab-1dcf20f3f06e.txt</requestContentFileDescription>
+    <header name="Accept" value="image/webp,image/apng,image/*,*/*;q=0.8"/>
+    <header name="Accept-Encoding" value="gzip, deflate, br"/>
+    <header name="Accept-Language" value="en-GB,en-US;q=0.9,en;q=0.8"/>
+    <header name="Connection" value="keep-alive"/>
+    <header name="Cookie" value="JSESSIONID=8363EC727F285E5F0E35AD5E605CB5B4; __VCAP_ID__=bbf425ba-b477-4f6d-597a-bf4a"/>
+    <header name="Host" value="jpetstore.cfapps.io"/>
+    <header name="Referer" value="https://jpetstore.cfapps.io/login"/>
+    <header name="Sec-Fetch-Mode" value="no-cors"/>
+    <header name="Sec-Fetch-Site" value="same-origin"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Accept-Ranges: bytes&#xd;
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate&#xd;
+Content-Type: image/gif&#xd;
+Date: Wed, 23 Oct 2019 15:34:31 GMT&#xd;
+Expires: 0&#xd;
+Last-Modified: Sat, 10 Aug 2019 09:02:58 GMT&#xd;
+Pragma: no-cache&#xd;
+Strict-Transport-Security: max-age=31536000 ; includeSubDomains&#xd;
+X-Content-Type-Options: nosniff&#xd;
+X-Frame-Options: DENY&#xd;
+X-Vcap-Request-Id: 651267e3-f9b5-430c-7bef-3b7672d05a0a&#xd;
+X-Xss-Protection: 1; mode=block&#xd;
+Content-Length: 46&#xd;
+Connection: keep-alive</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="image/gif"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/images/sm_birds.gif" path="/images/sm_birds.gif"
+    postType="1"
+    recordedArtifactZipFileName="team/vus/@sample1/%resources%/recorded-artifacts/8c02e7d5-6ebb-4f0f-8679-bd8310cf2bcf.zip"
+    recordedResponseCode="200" responseSize="0"
+    serverUid="jpetstore.cfapps.io" slaProfileEnabled="false"
+    uid="f0701161-8ee8-4762-98e3-8c4573f62aa1" useKeepAlive="false">
+    <requestContentFileDescription>recorded-requests/req_f0701161-8ee8-4762-98e3-8c4573f62aa1.txt</requestContentFileDescription>
+    <header name="Accept" value="image/webp,image/apng,image/*,*/*;q=0.8"/>
+    <header name="Accept-Encoding" value="gzip, deflate, br"/>
+    <header name="Accept-Language" value="en-GB,en-US;q=0.9,en;q=0.8"/>
+    <header name="Connection" value="keep-alive"/>
+    <header name="Cookie" value="JSESSIONID=8363EC727F285E5F0E35AD5E605CB5B4; __VCAP_ID__=bbf425ba-b477-4f6d-597a-bf4a"/>
+    <header name="Host" value="jpetstore.cfapps.io"/>
+    <header name="Referer" value="https://jpetstore.cfapps.io/login"/>
+    <header name="Sec-Fetch-Mode" value="no-cors"/>
+    <header name="Sec-Fetch-Site" value="same-origin"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Accept-Ranges: bytes&#xd;
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate&#xd;
+Content-Type: image/gif&#xd;
+Date: Wed, 23 Oct 2019 15:34:32 GMT&#xd;
+Expires: 0&#xd;
+Last-Modified: Sat, 10 Aug 2019 09:02:58 GMT&#xd;
+Pragma: no-cache&#xd;
+Strict-Transport-Security: max-age=31536000 ; includeSubDomains&#xd;
+X-Content-Type-Options: nosniff&#xd;
+X-Frame-Options: DENY&#xd;
+X-Vcap-Request-Id: 9af2aa16-dcc3-4175-5e28-b4f602dcca87&#xd;
+X-Xss-Protection: 1; mode=block&#xd;
+Content-Length: 251&#xd;
+Connection: keep-alive</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="image/gif"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/images/sm_fish.gif" path="/images/sm_fish.gif"
+    postType="1"
+    recordedArtifactZipFileName="team/vus/@sample1/%resources%/recorded-artifacts/8c02e7d5-6ebb-4f0f-8679-bd8310cf2bcf.zip"
+    recordedResponseCode="200" responseSize="0"
+    serverUid="jpetstore.cfapps.io" slaProfileEnabled="false"
+    uid="1be4ec37-a2fd-4e47-98ca-4e59a82a8502" useKeepAlive="false">
+    <requestContentFileDescription>recorded-requests/req_1be4ec37-a2fd-4e47-98ca-4e59a82a8502.txt</requestContentFileDescription>
+    <header name="Accept" value="image/webp,image/apng,image/*,*/*;q=0.8"/>
+    <header name="Accept-Encoding" value="gzip, deflate, br"/>
+    <header name="Accept-Language" value="en-GB,en-US;q=0.9,en;q=0.8"/>
+    <header name="Connection" value="keep-alive"/>
+    <header name="Cookie" value="JSESSIONID=8363EC727F285E5F0E35AD5E605CB5B4; __VCAP_ID__=bbf425ba-b477-4f6d-597a-bf4a"/>
+    <header name="Host" value="jpetstore.cfapps.io"/>
+    <header name="Referer" value="https://jpetstore.cfapps.io/login"/>
+    <header name="Sec-Fetch-Mode" value="no-cors"/>
+    <header name="Sec-Fetch-Site" value="same-origin"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Accept-Ranges: bytes&#xd;
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate&#xd;
+Content-Type: image/gif&#xd;
+Date: Wed, 23 Oct 2019 15:34:32 GMT&#xd;
+Expires: 0&#xd;
+Last-Modified: Sat, 10 Aug 2019 09:02:58 GMT&#xd;
+Pragma: no-cache&#xd;
+Strict-Transport-Security: max-age=31536000 ; includeSubDomains&#xd;
+X-Content-Type-Options: nosniff&#xd;
+X-Frame-Options: DENY&#xd;
+X-Vcap-Request-Id: a7e9f4ba-df26-4257-4461-630f2c154116&#xd;
+X-Xss-Protection: 1; mode=block&#xd;
+Content-Length: 271&#xd;
+Connection: keep-alive</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="image/gif"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/images/sm_dogs.gif" path="/images/sm_dogs.gif"
+    postType="1"
+    recordedArtifactZipFileName="team/vus/@sample1/%resources%/recorded-artifacts/8c02e7d5-6ebb-4f0f-8679-bd8310cf2bcf.zip"
+    recordedResponseCode="200" responseSize="0"
+    serverUid="jpetstore.cfapps.io" slaProfileEnabled="false"
+    uid="7f7ddd66-0503-4e97-9957-4ace4dd493ad" useKeepAlive="false">
+    <requestContentFileDescription>recorded-requests/req_7f7ddd66-0503-4e97-9957-4ace4dd493ad.txt</requestContentFileDescription>
+    <header name="Accept" value="image/webp,image/apng,image/*,*/*;q=0.8"/>
+    <header name="Accept-Encoding" value="gzip, deflate, br"/>
+    <header name="Accept-Language" value="en-GB,en-US;q=0.9,en;q=0.8"/>
+    <header name="Connection" value="keep-alive"/>
+    <header name="Cookie" value="JSESSIONID=8363EC727F285E5F0E35AD5E605CB5B4; __VCAP_ID__=bbf425ba-b477-4f6d-597a-bf4a"/>
+    <header name="Host" value="jpetstore.cfapps.io"/>
+    <header name="Referer" value="https://jpetstore.cfapps.io/login"/>
+    <header name="Sec-Fetch-Mode" value="no-cors"/>
+    <header name="Sec-Fetch-Site" value="same-origin"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Accept-Ranges: bytes&#xd;
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate&#xd;
+Content-Type: image/gif&#xd;
+Date: Wed, 23 Oct 2019 15:34:32 GMT&#xd;
+Expires: 0&#xd;
+Last-Modified: Sat, 10 Aug 2019 09:02:58 GMT&#xd;
+Pragma: no-cache&#xd;
+Strict-Transport-Security: max-age=31536000 ; includeSubDomains&#xd;
+X-Content-Type-Options: nosniff&#xd;
+X-Frame-Options: DENY&#xd;
+X-Vcap-Request-Id: 0895b032-10d6-456a-5370-ca4ba1c19403&#xd;
+X-Xss-Protection: 1; mode=block&#xd;
+Content-Length: 306&#xd;
+Connection: keep-alive</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="image/gif"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/images/sm_reptiles.gif"
+    path="/images/sm_reptiles.gif" postType="1"
+    recordedArtifactZipFileName="team/vus/@sample1/%resources%/recorded-artifacts/8c02e7d5-6ebb-4f0f-8679-bd8310cf2bcf.zip"
+    recordedResponseCode="200" responseSize="0"
+    serverUid="jpetstore.cfapps.io" slaProfileEnabled="false"
+    uid="b0eb826a-77ae-4a9e-ab81-e30d98605304" useKeepAlive="false">
+    <requestContentFileDescription>recorded-requests/req_b0eb826a-77ae-4a9e-ab81-e30d98605304.txt</requestContentFileDescription>
+    <header name="Accept" value="image/webp,image/apng,image/*,*/*;q=0.8"/>
+    <header name="Accept-Encoding" value="gzip, deflate, br"/>
+    <header name="Accept-Language" value="en-GB,en-US;q=0.9,en;q=0.8"/>
+    <header name="Connection" value="keep-alive"/>
+    <header name="Cookie" value="JSESSIONID=8363EC727F285E5F0E35AD5E605CB5B4; __VCAP_ID__=bbf425ba-b477-4f6d-597a-bf4a"/>
+    <header name="Host" value="jpetstore.cfapps.io"/>
+    <header name="Referer" value="https://jpetstore.cfapps.io/login"/>
+    <header name="Sec-Fetch-Mode" value="no-cors"/>
+    <header name="Sec-Fetch-Site" value="same-origin"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Accept-Ranges: bytes&#xd;
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate&#xd;
+Content-Type: image/gif&#xd;
+Date: Wed, 23 Oct 2019 15:34:32 GMT&#xd;
+Expires: 0&#xd;
+Last-Modified: Sat, 10 Aug 2019 09:02:58 GMT&#xd;
+Pragma: no-cache&#xd;
+Strict-Transport-Security: max-age=31536000 ; includeSubDomains&#xd;
+X-Content-Type-Options: nosniff&#xd;
+X-Frame-Options: DENY&#xd;
+X-Vcap-Request-Id: cde13bdc-88a9-484d-5f32-99614e2972a8&#xd;
+X-Xss-Protection: 1; mode=block&#xd;
+Content-Length: 398&#xd;
+Connection: keep-alive</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="image/gif"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/images/sm_cats.gif" path="/images/sm_cats.gif"
+    postType="1"
+    recordedArtifactZipFileName="team/vus/@sample1/%resources%/recorded-artifacts/8c02e7d5-6ebb-4f0f-8679-bd8310cf2bcf.zip"
+    recordedResponseCode="200" responseSize="0"
+    serverUid="jpetstore.cfapps.io" slaProfileEnabled="false"
+    uid="0ab1d184-de22-4413-a8ce-032d512fa0cb" useKeepAlive="false">
+    <requestContentFileDescription>recorded-requests/req_0ab1d184-de22-4413-a8ce-032d512fa0cb.txt</requestContentFileDescription>
+    <header name="Accept" value="image/webp,image/apng,image/*,*/*;q=0.8"/>
+    <header name="Accept-Encoding" value="gzip, deflate, br"/>
+    <header name="Accept-Language" value="en-GB,en-US;q=0.9,en;q=0.8"/>
+    <header name="Connection" value="keep-alive"/>
+    <header name="Cookie" value="JSESSIONID=8363EC727F285E5F0E35AD5E605CB5B4; __VCAP_ID__=bbf425ba-b477-4f6d-597a-bf4a"/>
+    <header name="Host" value="jpetstore.cfapps.io"/>
+    <header name="Referer" value="https://jpetstore.cfapps.io/login"/>
+    <header name="Sec-Fetch-Mode" value="no-cors"/>
+    <header name="Sec-Fetch-Site" value="same-origin"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Accept-Ranges: bytes&#xd;
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate&#xd;
+Content-Type: image/gif&#xd;
+Date: Wed, 23 Oct 2019 15:34:32 GMT&#xd;
+Expires: 0&#xd;
+Last-Modified: Sat, 10 Aug 2019 09:02:58 GMT&#xd;
+Pragma: no-cache&#xd;
+Strict-Transport-Security: max-age=31536000 ; includeSubDomains&#xd;
+X-Content-Type-Options: nosniff&#xd;
+X-Frame-Options: DENY&#xd;
+X-Vcap-Request-Id: f15f257b-bd97-488f-5a2d-ca4027545286&#xd;
+X-Xss-Protection: 1; mode=block&#xd;
+Content-Length: 289&#xd;
+Connection: keep-alive</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>

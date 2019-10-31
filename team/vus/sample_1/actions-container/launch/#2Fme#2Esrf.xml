@@ -1,0 +1,58 @@
+<http-page executeResourcesDynamically="false" name="/me.srf"
+    playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/sample_1/%resources%/recorded-artifacts/841cc28b-a27e-4848-940f-0b2234ab4b01.zip"
+    slaProfileEnabled="false" thinkTime="303"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="841cc28b-a27e-4848-940f-0b2234ab4b01">
+    <embedded-action>0e4e0e62-43c2-4448-bc7c-4313d48271f5</embedded-action>
+    <screenshotFileDescription>recorded-screenshots/sc_bdf24c4d-3699-485d-87aa-9d61a7d82096.jpg</screenshotFileDescription>
+</http-page>
+<http-action actionType="1" contentType="text/html; charset=utf-8"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/me.srf" path="/me.srf" postType="1"
+    recordedArtifactZipFileName="team/vus/sample_1/%resources%/recorded-artifacts/841cc28b-a27e-4848-940f-0b2234ab4b01.zip"
+    recordedResponseCode="200" responseSize="9551"
+    serverUid="login.live.com" slaProfileEnabled="false"
+    uid="0e4e0e62-43c2-4448-bc7c-4313d48271f5" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_0e4e0e62-43c2-4448-bc7c-4313d48271f5.html</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_0e4e0e62-43c2-4448-bc7c-4313d48271f5.txt</requestContentFileDescription>
+    <parameter encodeName="true" encodeValue="true" name="wa"
+        recordRawValue="wsignin1.0" separator="=" value="wsignin1.0" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="wreply"
+        recordRawValue="https%3A%2F%2Fwww.microsoft.com" separator="="
+        value="https://www.microsoft.com" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="uaid"
+        recordRawValue="dc9a2157-3591-496b-1d2d-58ea841e89fb"
+        separator="=" value="dc9a2157-3591-496b-1d2d-58ea841e89fb" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="partnerId"
+        recordRawValue="mswelcomeie11" separator="="
+        value="mswelcomeie11" valueMode="USE_VALUE"/>
+    <header name="referer" value="https://www.microsoft.com/en-in/welcomeie11/"/>
+    <header name="cookie" value="MUID=060A547F2C726C4D1E215985287268C1; WLOpt=credtype=1&amp;act=[1]; MSPCID=d1e52d0b6b7984fb; MSPPre=saritha4it@gmail.com|d1e52d0b6b7984fb||; CAW=%3CEncryptedData%20xmlns%3D%22http://www.w3.org/2001/04/xmlenc%23%22%20Id%3D%22BinaryDAToken0%22%20Type%3D%22http://www.w3.org/2001/04/xmlenc%23Element%22%3E%3CEncryptionMethod%20Algorithm%3D%22http://www.w3.org/2001/04/xmlenc%23tripledes-cbc%22%3E%3C/EncryptionMethod%3E%3Cds:KeyInfo%20xmlns:ds%3D%22http://www.w3.org/2000/09/xmldsig%23%22%3E%3Cds:KeyName%3Ehttp://Passport.NET/STS%3C/ds:KeyName%3E%3C/ds:KeyInfo%3E%3CCipherData%3E%3CCipherValue%3ECThtgNeiBQ3jpF5iY%2B1GpKIYd0In5C3aqIYKHzgwQ/s/lkhzDl9hNrjibK8CASkcUKvJxsNwhOlmqU/83Dg19Rpyr4V57NqVMx3TGVx6cvSh/luJMrLbkL2e50/VH3bQrctfcfd8goBGuiw7tpcP5C5YPdQ6aRAb28MU7qojBuuZutlw4rDpbUwZWyH9EkRNQ6MH5B/ZQJmcvhZBu4XXski/Rwo9WhxiGRqCweBUniIX69bDwH3o0LjS/fj9BkWzLgGl%2Btnta4CuZez5Ik0f9wsuAhjaBd6aQcqIk5/HN4Q2Y8yNz84F1e0pvdxkBrxWmhUYZPMVWGRbDK7jw8zpJtMRxmE6wACfSGt2MWx9miJ7yTk51Y8rCkxe0qqjM71uOoHI3CIeHvvRHmnFUo%2B31zp9xqk2WOOYNOmMFXp5o%2BlD86hOM0zhufGZskQbbpHeeONpKz6QFMECJZGlus5pF19DB4zC1JsS%2BP2SCchY7nDOo0Xn24F8TGC4iNvXDu8LNe1wp2Bw1IvMVddXtCzShSXnIFSsOCXqRR4lSwMeTwMr0TBbgUBgXOxMApSOXneNNqFDERKZZE1%2BY5916Cqh1vStOZeiHplMR3C75bD/EHBuo9yVvj0oxVSTvf9SNRjVxAy6DJjYYxRjuidyDL%2B44AGVL914DlHVDOMvC9T2jW7clZHFBnadKr6/La6drxBa6w%3D%3D%3C/CipherValue%3E%3C/CipherData%3E%3C/EncryptedData%3E; DIDC=ct%3D1571844611%26hashalg%3DSHA256%26bver%3D18%26appid%3DDefault%26da%3D%253CEncryptedData%2520xmlns%253D%2522http://www.w3.org/2001/04/xmlenc%2523%2522%2520Id%253D%2522devicesoftware%2522%2520Type%253D%2522http://www.w3.org/2001/04/xmlenc%2523Element%2522%253E%253CEncryptionMethod%2520Algorithm%253D%2522http://www.w3.org/2001/04/xmlenc%2523tripledes-cbc%2522%253E%253C/EncryptionMethod%253E%253Cds:KeyInfo%2520xmlns:ds%253D%2522http://www.w3.org/2000/09/xmldsig%2523%2522%253E%253Cds:KeyName%253Ehttp://Passport.NET/STS%253C/ds:KeyName%253E%253C/ds:KeyInfo%253E%253CCipherData%253E%253CCipherValue%253ECYV6Z1gegp5Lg%252BWK0PeNqtUudirfpvUf4TNWk6RzR5U8dx1qyFyylF5bWCan4mJ2HgC45T6Vo7j3oNansVeRMMP/i4a8TLsRtSlaFKopijCO6PPYO1kRw5xwpSUyhS5t7FwAm3hCs148WwSoANL2V6e6lg8aaT1daGegxlWCF85IPVTYj7vNxKvpx6GT0ZXL2HgRW4uxFBF0KFk9LG2fkBJtJJWIePWjgLTub%252BSE4rqYZiMWnQY07VT80s1dLMimYtUlXYesYiwRTcGFIYkFN5fZirLKJVU/lekEVxtYMyEzlm07D6lk/T3gVEa42F/3EGnyZTzfnegvVYcPJv/D4ujMbRETBFdWczf6EDBxv/sbhLwQjrOJAOnb%252BwE%252BgBKfHJTJILRzKDrFe6U15UtOxouugbO6z2SEhgcjszzH7w%252BuYouGvY4VQ33u0hYBB6JwUpzwKJAJF8gqNkzBAjQsK/Sx3euipETOTSLu91gZZPPjobkTGBeXLhHjwnLd4EPVZO1XaX9lgzk8u50xsBtKiRZfGicDFZ/w7VoJvRP8p6DD/yRNtzBp0PAsuelsQDcohLq7rltJSLvMuCHdH7%252BDOGzTCv9VMeXHtR1t1uzhgQnnY8g/WMyttP8ukFrYf0c/8y3pkMyFu2Yw63GiSvqvmuFlcuUjbAm%252BPFuYAiE%252BNrmKOZg4JbC5%252BVAgrvDWvnphd0xPtWIvwPZu8u6UNB/ynCqx6IVMpFeGe0CwFWpomQZizXPdd/pj1UUURwDYVjhJvwOS5aKy8Hmd5ubWuwgFB2iB5yaU4k4CZd7WsS1ToPtY%253C/CipherValue%253E%253C/CipherData%253E%253C/EncryptedData%253E%26nonce%3Dx22v%252FOIhwyF7JnRqX%252Fu8NIJI%252FjqYeGYd%26hash%3DSqx8bzE1vUxlH1%252BDEVEpLUZFPC0Gx2DtTsWYbw1Rr6U%253D%26dd%3D1; DIDCL=ct%3D1571844611%26hashalg%3DSHA256%26bver%3D18%26appid%3DDefault%26da%3D%253CEncryptedData%2520xmlns%253D%2522http://www.w3.org/2001/04/xmlenc%2523%2522%2520Id%253D%2522devicesoftware%2522%2520Type%253D%2522http://www.w3.org/2001/04/xmlenc%2523Element%2522%253E%253CEncryptionMethod%2520Algorithm%253D%2522http://www.w3.org/2001/04/xmlenc%2523tripledes-cbc%2522%253E%253C/EncryptionMethod%253E%253Cds:KeyInfo%2520xmlns:ds%253D%2522http://www.w3.org/2000/09/xmldsig%2523%2522%253E%253Cds:KeyName%253Ehttp://Passport.NET/STS%253C/ds:KeyName%253E%253C/ds:KeyInfo%253E%253CCipherData%253E%253CCipherValue%253ECYV6Z1gegp5Lg%252BWK0PeNqtUudirfpvUf4TNWk6RzR5U8dx1qyFyylF5bWCan4mJ2HgC45T6Vo7j3oNansVeRMMP/i4a8TLsRtSlaFKopijCO6PPYO1kRw5xwpSUyhS5t7FwAm3hCs148WwSoANL2V6e6lg8aaT1daGegxlWCF85IPVTYj7vNxKvpx6GT0ZXL2HgRW4uxFBF0KFk9LG2fkBJtJJWIePWjgLTub%252BSE4rqYZiMWnQY07VT80s1dLMimYtUlXYesYiwRTcGFIYkFN5fZirLKJVU/lekEVxtYMyEzlm07D6lk/T3gVEa42F/3EGnyZTzfnegvVYcPJv/D4ujMbRETBFdWczf6EDBxv/sbhLwQjrOJAOnb%252BwE%252BgBKfHJTJILRzKDrFe6U15UtOxouugbO6z2SEhgcjszzH7w%252BuYouGvY4VQ33u0hYBB6JwUpzwKJAJF8gqNkzBAjQsK/Sx3euipETOTSLu91gZZPPjobkTGBeXLhHjwnLd4EPVZO1XaX9lgzk8u50xsBtKiRZfGicDFZ/w7VoJvRP8p6DD/yRNtzBp0PAsuelsQDcohLq7rltJSLvMuCHdH7%252BDOGzTCv9VMeXHtR1t1uzhgQnnY8g/WMyttP8ukFrYf0c/8y3pkMyFu2Yw63GiSvqvmuFlcuUjbAm%252BPFuYAiE%252BNrmKOZg4JbC5%252BVAgrvDWvnphd0xPtWIvwPZu8u6UNB/ynCqx6IVMpFeGe0CwFWpomQZizXPdd/pj1UUURwDYVjhJvwOS5aKy8Hmd5ubWuwgFB2iB5yaU4k4CZd7WsS1ToPtY%253C/CipherValue%253E%253C/CipherData%253E%253C/EncryptedData%253E%26nonce%3Dx22v%252FOIhwyF7JnRqX%252Fu8NIJI%252FjqYeGYd%26hash%3DSqx8bzE1vUxlH1%252BDEVEpLUZFPC0Gx2DtTsWYbw1Rr6U%253D%26dd%3D1"/>
+    <header name="accept-language" value="en-IN"/>
+    <header name="accept-encoding" value="gzip, deflate"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko"/>
+    <header name="accept" value="text/html, application/xhtml+xml, image/jxr, */*"/>
+    <responseHeaders>HTTP/2.0 200&#xd;
+cache-control: no-cache, no-store&#xd;
+pragma: no-cache&#xd;
+content-type: text/html; charset=utf-8&#xd;
+content-encoding: gzip&#xd;
+expires: Wed, 23 Oct 2019 15:29:14 GMT&#xd;
+vary: Accept-Encoding&#xd;
+server: Microsoft-IIS/10.0&#xd;
+p3p: CP="DSP CUR OTPi IND OTRi ONL FIN"&#xd;
+set-cookie: uaid=dc9a21573591496b1d2d58ea841e89fb; domain=login.live.com; Secure; path=/; SameSite=None; HttpOnly&#xd;
+set-cookie: MSPRequ=id=N&amp;lt=1571844614&amp;co=1; domain=login.live.com; Secure; path=/; SameSite=None; HttpOnly&#xd;
+referrer-policy: strict-origin-when-cross-origin&#xd;
+ppserver: PPV: 30 H: BL02PF02C2121E5 V: 0&#xd;
+x-content-type-options: nosniff&#xd;
+strict-transport-security: max-age=31536000&#xd;
+x-xss-protection: 1; mode=block&#xd;
+date: Wed, 23 Oct 2019 15:30:14 GMT&#xd;
+content-length: 4076</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
