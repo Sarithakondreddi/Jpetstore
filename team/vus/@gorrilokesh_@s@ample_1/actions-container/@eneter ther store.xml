@@ -1,0 +1,6 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="Eneter ther store" pacingEnd="0" pacingMode="MODE_NO_PACING"
+    pacingStart="0" pacingValue="0" slaProfileEnabled="false"
+    uid="d63013c3-1edc-4228-8265-dd9dd1924af3" weightsEnabled="false">
+    <weighted-embedded-action uid="14621432-d1f4-4121-9572-ce3004a8f92c"/>
+</basic-logical-action-container>
